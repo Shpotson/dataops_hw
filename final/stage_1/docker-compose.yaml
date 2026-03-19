@@ -1,0 +1,39 @@
+version: "3.8"
+
+services:
+  mlflow-db:
+    image: postgres:16-alpine
+    container_name: mlflow-db
+    environment:
+      POSTGRES_DB: ${MLFLOW_DB_NAME}
+      POSTGRES_USER: ${MLFLOW_DB_USER}
+      POSTGRES_PASSWORD: ${MLFLOW_DB_PASSWORD}
+    ports:
+      - "5433:5432"
+    volumes:
+      - mlflow_db_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${MLFLOW_DB_USER} -d ${MLFLOW_DB_NAME}"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  mlflow:
+    build:
+      context: ./mlflow
+      dockerfile: Dockerfile
+    container_name: mlflow-server
+    depends_on:
+      mlflow-db:
+        condition: service_healthy
+    environment:
+      MLFLOW_BACKEND_STORE_URI: postgresql://${MLFLOW_DB_USER}:${MLFLOW_DB_PASSWORD}@mlflow-db:5432/${MLFLOW_DB_NAME}
+      MLFLOW_ARTIFACT_ROOT: /mlflow/artifacts
+    ports:
+      - "5000:5000"
+    volumes:
+      - mlflow_artifacts:/mlflow/artifacts
+
+volumes:
+  mlflow_db_data:
+  mlflow_artifacts:

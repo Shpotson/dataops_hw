@@ -1,0 +1,83 @@
+failed to get console mode for stdout: The handle is invalid.
+airflow-scheduler-1  | 
+airflow-scheduler-1  | BACKEND=redis
+airflow-scheduler-1  | DB_HOST=redis
+airflow-scheduler-1  | DB_PORT=6379
+airflow-scheduler-1  | 
+airflow-scheduler-1  |   ____________       _____________
+airflow-scheduler-1  |  ____    |__( )_________  __/__  /________      __
+airflow-scheduler-1  | ____  /| |_  /__  ___/_  /_ __  /_  __ \_ | /| / /
+airflow-scheduler-1  | ___  ___ |  / _  /   _  __/ _  / / /_/ /_ |/ |/ /
+airflow-scheduler-1  |  _/_/  |_/_/  /_/    /_/    /_/  \____/____/|__/
+airflow-scheduler-1  | [2026-03-19T22:47:32.273+0000] {_client.py:1026} INFO - HTTP Request: GET https://apacheairflow.gateway.scarf.sh/scheduler?version=2.10.4&python_version=3.12&platform=Linux&arch=x86_64&database=postgresql&db_version=13.18&executor=CeleryExecutor "HTTP/1.1 200 OK"
+airflow-scheduler-1  | [2026-03-19T22:47:34.646+0000] {executor_loader.py:254} INFO - Loaded executor: CeleryExecutor
+airflow-scheduler-1  | [2026-03-19T22:47:34.793+0000] {scheduler_job_runner.py:950} INFO - Starting the scheduler
+airflow-scheduler-1  | [2026-03-19T22:47:34.796+0000] {scheduler_job_runner.py:957} INFO - Processing each file at most -1 times
+airflow-scheduler-1  | [2026-03-19T22:47:34.812+0000] {manager.py:174} INFO - Launched DagFileProcessorManager with pid: 42
+airflow-scheduler-1  | [2026-03-19T22:47:34.819+0000] {scheduler_job_runner.py:1949} INFO - Adopting or resetting orphaned tasks for active dag runs
+airflow-scheduler-1  | [2026-03-19T22:47:34.828+0000] {settings.py:63} INFO - Configured default timezone UTC
+airflow-scheduler-1  | [2026-03-19T22:51:38.815+0000] {dag.py:4180} INFO - Setting next_dagrun for my_test_dag to 2026-03-19 22:51:00+00:00, run_after=2026-03-19 22:52:00+00:00
+airflow-scheduler-1  | Dag run  in running state
+airflow-scheduler-1  | Dag information Queued at: 2026-03-19 22:51:38.806315+00:00 hash info: f80f6674964af1c58fb3f8a67a32eced
+airflow-scheduler-1  | [2026-03-19T22:51:38.855+0000] {scheduler_job_runner.py:435} INFO - 1 tasks up for execution:
+airflow-scheduler-1  | 	<TaskInstance: my_test_dag.hello_task scheduled__2026-03-19T22:50:00+00:00 [scheduled]>
+airflow-scheduler-1  | [2026-03-19T22:51:38.856+0000] {scheduler_job_runner.py:507} INFO - DAG my_test_dag has 0/16 running and queued tasks
+airflow-scheduler-1  | [2026-03-19T22:51:38.856+0000] {scheduler_job_runner.py:646} INFO - Setting the following tasks to queued state:
+airflow-scheduler-1  | 	<TaskInstance: my_test_dag.hello_task scheduled__2026-03-19T22:50:00+00:00 [scheduled]>
+airflow-scheduler-1  | [2026-03-19T22:51:38.858+0000] {scheduler_job_runner.py:748} INFO - Trying to enqueue tasks: [<TaskInstance: my_test_dag.hello_task scheduled__2026-03-19T22:50:00+00:00 [scheduled]>] for executor: CeleryExecutor(parallelism=32)
+airflow-scheduler-1  | [2026-03-19T22:51:38.858+0000] {scheduler_job_runner.py:692} INFO - Sending TaskInstanceKey(dag_id='my_test_dag', task_id='hello_task', run_id='scheduled__2026-03-19T22:50:00+00:00', try_number=1, map_index=-1) to CeleryExecutor with priority 1 and queue default
+airflow-scheduler-1  | [2026-03-19T22:51:38.859+0000] {base_executor.py:169} INFO - Adding to queue: ['airflow', 'tasks', 'run', 'my_test_dag', 'hello_task', 'scheduled__2026-03-19T22:50:00+00:00', '--local', '--subdir', 'DAGS_FOLDER/test_dag.py']
+airflow-scheduler-1  | [2026-03-19T22:51:39.168+0000] {scheduler_job_runner.py:776} INFO - Received executor event with state queued for task instance TaskInstanceKey(dag_id='my_test_dag', task_id='hello_task', run_id='scheduled__2026-03-19T22:50:00+00:00', try_number=1, map_index=-1)
+airflow-scheduler-1  | [2026-03-19T22:51:39.173+0000] {scheduler_job_runner.py:803} INFO - Setting external_id for <TaskInstance: my_test_dag.hello_task scheduled__2026-03-19T22:50:00+00:00 [queued]> to d8e228dd-18d5-45ef-ad39-7ab55e2048d0
+airflow-scheduler-1  | Dag run  in running state
+airflow-scheduler-1  | Dag information Queued at: 2026-03-19 22:51:42.156875+00:00 hash info: f80f6674964af1c58fb3f8a67a32eced
+airflow-scheduler-1  | [2026-03-19T22:51:42.849+0000] {scheduler_job_runner.py:435} INFO - 1 tasks up for execution:
+airflow-scheduler-1  | 	<TaskInstance: my_test_dag.hello_task manual__2026-03-19T22:51:42.146703+00:00 [scheduled]>
+airflow-scheduler-1  | [2026-03-19T22:51:42.849+0000] {scheduler_job_runner.py:507} INFO - DAG my_test_dag has 1/16 running and queued tasks
+airflow-scheduler-1  | [2026-03-19T22:51:42.849+0000] {scheduler_job_runner.py:646} INFO - Setting the following tasks to queued state:
+airflow-scheduler-1  | 	<TaskInstance: my_test_dag.hello_task manual__2026-03-19T22:51:42.146703+00:00 [scheduled]>
+airflow-scheduler-1  | [2026-03-19T22:51:42.850+0000] {scheduler_job_runner.py:748} INFO - Trying to enqueue tasks: [<TaskInstance: my_test_dag.hello_task manual__2026-03-19T22:51:42.146703+00:00 [scheduled]>] for executor: CeleryExecutor(parallelism=32)
+airflow-scheduler-1  | [2026-03-19T22:51:42.851+0000] {scheduler_job_runner.py:692} INFO - Sending TaskInstanceKey(dag_id='my_test_dag', task_id='hello_task', run_id='manual__2026-03-19T22:51:42.146703+00:00', try_number=1, map_index=-1) to CeleryExecutor with priority 1 and queue default
+airflow-scheduler-1  | [2026-03-19T22:51:42.851+0000] {base_executor.py:169} INFO - Adding to queue: ['airflow', 'tasks', 'run', 'my_test_dag', 'hello_task', 'manual__2026-03-19T22:51:42.146703+00:00', '--local', '--subdir', 'DAGS_FOLDER/test_dag.py']
+airflow-scheduler-1  | [2026-03-19T22:51:42.864+0000] {scheduler_job_runner.py:776} INFO - Received executor event with state queued for task instance TaskInstanceKey(dag_id='my_test_dag', task_id='hello_task', run_id='manual__2026-03-19T22:51:42.146703+00:00', try_number=1, map_index=-1)
+airflow-scheduler-1  | [2026-03-19T22:51:42.867+0000] {scheduler_job_runner.py:803} INFO - Setting external_id for <TaskInstance: my_test_dag.hello_task manual__2026-03-19T22:51:42.146703+00:00 [queued]> to 612a1f39-8f87-4e32-83a2-d16b95471e27
+airflow-scheduler-1  | [2026-03-19T22:52:00.136+0000] {dag.py:4180} INFO - Setting next_dagrun for my_test_dag to 2026-03-19 22:52:00+00:00, run_after=2026-03-19 22:53:00+00:00
+airflow-scheduler-1  | Dag run  in running state
+airflow-scheduler-1  | Dag information Queued at: 2026-03-19 22:52:00.131932+00:00 hash info: f80f6674964af1c58fb3f8a67a32eced
+airflow-scheduler-1  | [2026-03-19T22:52:00.181+0000] {scheduler_job_runner.py:435} INFO - 1 tasks up for execution:
+airflow-scheduler-1  | 	<TaskInstance: my_test_dag.hello_task scheduled__2026-03-19T22:51:00+00:00 [scheduled]>
+airflow-scheduler-1  | [2026-03-19T22:52:00.181+0000] {scheduler_job_runner.py:507} INFO - DAG my_test_dag has 2/16 running and queued tasks
+airflow-scheduler-1  | [2026-03-19T22:52:00.181+0000] {scheduler_job_runner.py:646} INFO - Setting the following tasks to queued state:
+airflow-scheduler-1  | 	<TaskInstance: my_test_dag.hello_task scheduled__2026-03-19T22:51:00+00:00 [scheduled]>
+airflow-scheduler-1  | [2026-03-19T22:52:00.183+0000] {scheduler_job_runner.py:748} INFO - Trying to enqueue tasks: [<TaskInstance: my_test_dag.hello_task scheduled__2026-03-19T22:51:00+00:00 [scheduled]>] for executor: CeleryExecutor(parallelism=32)
+airflow-scheduler-1  | [2026-03-19T22:52:00.183+0000] {scheduler_job_runner.py:692} INFO - Sending TaskInstanceKey(dag_id='my_test_dag', task_id='hello_task', run_id='scheduled__2026-03-19T22:51:00+00:00', try_number=1, map_index=-1) to CeleryExecutor with priority 1 and queue default
+airflow-scheduler-1  | [2026-03-19T22:52:00.183+0000] {base_executor.py:169} INFO - Adding to queue: ['airflow', 'tasks', 'run', 'my_test_dag', 'hello_task', 'scheduled__2026-03-19T22:51:00+00:00', '--local', '--subdir', 'DAGS_FOLDER/test_dag.py']
+airflow-scheduler-1  | [2026-03-19T22:52:00.195+0000] {scheduler_job_runner.py:776} INFO - Received executor event with state queued for task instance TaskInstanceKey(dag_id='my_test_dag', task_id='hello_task', run_id='scheduled__2026-03-19T22:51:00+00:00', try_number=1, map_index=-1)
+airflow-scheduler-1  | [2026-03-19T22:52:00.198+0000] {scheduler_job_runner.py:803} INFO - Setting external_id for <TaskInstance: my_test_dag.hello_task scheduled__2026-03-19T22:51:00+00:00 [queued]> to dad93130-ec26-4b9d-98ab-4755255a52e0
+airflow-scheduler-1  | [2026-03-19T22:52:34.997+0000] {scheduler_job_runner.py:1949} INFO - Adopting or resetting orphaned tasks for active dag runs
+airflow-scheduler-1  | [2026-03-19T22:53:00.942+0000] {dag.py:4180} INFO - Setting next_dagrun for my_test_dag to 2026-03-19 22:53:00+00:00, run_after=2026-03-19 22:54:00+00:00
+airflow-scheduler-1  | Dag run  in running state
+airflow-scheduler-1  | Dag information Queued at: 2026-03-19 22:53:00.938564+00:00 hash info: f80f6674964af1c58fb3f8a67a32eced
+airflow-scheduler-1  | [2026-03-19T22:53:00.984+0000] {scheduler_job_runner.py:435} INFO - 1 tasks up for execution:
+airflow-scheduler-1  | 	<TaskInstance: my_test_dag.hello_task scheduled__2026-03-19T22:52:00+00:00 [scheduled]>
+airflow-scheduler-1  | [2026-03-19T22:53:00.985+0000] {scheduler_job_runner.py:507} INFO - DAG my_test_dag has 3/16 running and queued tasks
+airflow-scheduler-1  | [2026-03-19T22:53:00.985+0000] {scheduler_job_runner.py:646} INFO - Setting the following tasks to queued state:
+airflow-scheduler-1  | 	<TaskInstance: my_test_dag.hello_task scheduled__2026-03-19T22:52:00+00:00 [scheduled]>
+airflow-scheduler-1  | [2026-03-19T22:53:00.986+0000] {scheduler_job_runner.py:748} INFO - Trying to enqueue tasks: [<TaskInstance: my_test_dag.hello_task scheduled__2026-03-19T22:52:00+00:00 [scheduled]>] for executor: CeleryExecutor(parallelism=32)
+airflow-scheduler-1  | [2026-03-19T22:53:00.986+0000] {scheduler_job_runner.py:692} INFO - Sending TaskInstanceKey(dag_id='my_test_dag', task_id='hello_task', run_id='scheduled__2026-03-19T22:52:00+00:00', try_number=1, map_index=-1) to CeleryExecutor with priority 1 and queue default
+airflow-scheduler-1  | [2026-03-19T22:53:00.987+0000] {base_executor.py:169} INFO - Adding to queue: ['airflow', 'tasks', 'run', 'my_test_dag', 'hello_task', 'scheduled__2026-03-19T22:52:00+00:00', '--local', '--subdir', 'DAGS_FOLDER/test_dag.py']
+airflow-scheduler-1  | [2026-03-19T22:53:00.999+0000] {scheduler_job_runner.py:776} INFO - Received executor event with state queued for task instance TaskInstanceKey(dag_id='my_test_dag', task_id='hello_task', run_id='scheduled__2026-03-19T22:52:00+00:00', try_number=1, map_index=-1)
+airflow-scheduler-1  | [2026-03-19T22:53:01.001+0000] {scheduler_job_runner.py:803} INFO - Setting external_id for <TaskInstance: my_test_dag.hello_task scheduled__2026-03-19T22:52:00+00:00 [queued]> to 6ca81215-0b5e-4522-b6cf-09ec00f04c3c
+airflow-scheduler-1  | [2026-03-19T22:54:00.790+0000] {dag.py:4180} INFO - Setting next_dagrun for my_test_dag to 2026-03-19 22:54:00+00:00, run_after=2026-03-19 22:55:00+00:00
+airflow-scheduler-1  | Dag run  in running state
+airflow-scheduler-1  | Dag information Queued at: 2026-03-19 22:54:00.786401+00:00 hash info: f80f6674964af1c58fb3f8a67a32eced
+airflow-scheduler-1  | [2026-03-19T22:54:00.834+0000] {scheduler_job_runner.py:435} INFO - 1 tasks up for execution:
+airflow-scheduler-1  | 	<TaskInstance: my_test_dag.hello_task scheduled__2026-03-19T22:53:00+00:00 [scheduled]>
+airflow-scheduler-1  | [2026-03-19T22:54:00.834+0000] {scheduler_job_runner.py:507} INFO - DAG my_test_dag has 4/16 running and queued tasks
+airflow-scheduler-1  | [2026-03-19T22:54:00.834+0000] {scheduler_job_runner.py:646} INFO - Setting the following tasks to queued state:
+airflow-scheduler-1  | 	<TaskInstance: my_test_dag.hello_task scheduled__2026-03-19T22:53:00+00:00 [scheduled]>
+airflow-scheduler-1  | [2026-03-19T22:54:00.836+0000] {scheduler_job_runner.py:748} INFO - Trying to enqueue tasks: [<TaskInstance: my_test_dag.hello_task scheduled__2026-03-19T22:53:00+00:00 [scheduled]>] for executor: CeleryExecutor(parallelism=32)
+airflow-scheduler-1  | [2026-03-19T22:54:00.836+0000] {scheduler_job_runner.py:692} INFO - Sending TaskInstanceKey(dag_id='my_test_dag', task_id='hello_task', run_id='scheduled__2026-03-19T22:53:00+00:00', try_number=1, map_index=-1) to CeleryExecutor with priority 1 and queue default
+airflow-scheduler-1  | [2026-03-19T22:54:00.836+0000] {base_executor.py:169} INFO - Adding to queue: ['airflow', 'tasks', 'run', 'my_test_dag', 'hello_task', 'scheduled__2026-03-19T22:53:00+00:00', '--local', '--subdir', 'DAGS_FOLDER/test_dag.py']
+airflow-scheduler-1  | [2026-03-19T22:54:00.848+0000] {scheduler_job_runner.py:776} INFO - Received executor event with state queued for task instance TaskInstanceKey(dag_id='my_test_dag', task_id='hello_task', run_id='scheduled__2026-03-19T22:53:00+00:00', try_number=1, map_index=-1)
+airflow-scheduler-1  | [2026-03-19T22:54:00.852+0000] {scheduler_job_runner.py:803} INFO - Setting external_id for <TaskInstance: my_test_dag.hello_task scheduled__2026-03-19T22:53:00+00:00 [queued]> to 7e9bc3af-9cd5-42b2-914f-7d11701b420c

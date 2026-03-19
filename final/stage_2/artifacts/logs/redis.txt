@@ -1,0 +1,8 @@
+failed to get console mode for stdout: The handle is invalid.
+redis-1  | 1:C 19 Mar 2026 22:47:09.359 * oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+redis-1  | 1:C 19 Mar 2026 22:47:09.359 * Redis version=7.2.6, bits=64, commit=00000000, modified=0, pid=1, just started
+redis-1  | 1:C 19 Mar 2026 22:47:09.359 # Warning: no config file specified, using the default config. In order to specify a config file use redis-server /path/to/redis.conf
+redis-1  | 1:M 19 Mar 2026 22:47:09.359 * monotonic clock: POSIX clock_gettime
+redis-1  | 1:M 19 Mar 2026 22:47:09.361 * Running mode=standalone, port=6379.
+redis-1  | 1:M 19 Mar 2026 22:47:09.362 * Server initialized
+redis-1  | 1:M 19 Mar 2026 22:47:09.362 * Ready to accept connections tcp

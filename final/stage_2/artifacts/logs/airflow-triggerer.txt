@@ -1,0 +1,23 @@
+failed to get console mode for stdout: The handle is invalid.
+airflow-triggerer-1  | 
+airflow-triggerer-1  | ERROR: You need to initialize the database. Please run `airflow db init`. Make sure the command is run using Airflow version 2.10.4.
+airflow-triggerer-1  | 
+airflow-triggerer-1  |   ____________       _____________
+airflow-triggerer-1  |  ____    |__( )_________  __/__  /________      __
+airflow-triggerer-1  | ____  /| |_  /__  ___/_  /_ __  /_  __ \_ | /| / /
+airflow-triggerer-1  | ___  ___ |  / _  /   _  __/ _  / / /_/ /_ |/ |/ /
+airflow-triggerer-1  |  _/_/  |_/_/  /_/    /_/    /_/  \____/____/|__/
+airflow-triggerer-1  | [2026-03-19 22:47:34 +0000] [15] [INFO] Starting gunicorn 23.0.0
+airflow-triggerer-1  | [2026-03-19 22:47:34 +0000] [15] [INFO] Listening at: http://[::]:8794 (15)
+airflow-triggerer-1  | [2026-03-19 22:47:34 +0000] [15] [INFO] Using worker: sync
+airflow-triggerer-1  | [2026-03-19 22:47:34 +0000] [16] [INFO] Booting worker with pid: 16
+airflow-triggerer-1  | [2026-03-19 22:47:34 +0000] [17] [INFO] Booting worker with pid: 17
+airflow-triggerer-1  | [2026-03-19T22:47:36.187+0000] {triggerer_job_runner.py:181} INFO - Setting up TriggererHandlerWrapper with handler <FileTaskHandler (NOTSET)>
+airflow-triggerer-1  | [2026-03-19T22:47:36.188+0000] {triggerer_job_runner.py:237} INFO - Setting up logging queue listener with handlers [<RedirectStdHandler <stdout> (NOTSET)>, <TriggererHandlerWrapper (NOTSET)>]
+airflow-triggerer-1  | [2026-03-19T22:47:36.197+0000] {triggerer_job_runner.py:338} INFO - Starting the triggerer
+airflow-triggerer-1  | [2026-03-19T22:48:36.253+0000] {triggerer_job_runner.py:510} INFO - 0 triggers currently running
+airflow-triggerer-1  | [2026-03-19T22:49:36.309+0000] {triggerer_job_runner.py:510} INFO - 0 triggers currently running
+airflow-triggerer-1  | [2026-03-19T22:50:36.364+0000] {triggerer_job_runner.py:510} INFO - 0 triggers currently running
+airflow-triggerer-1  | [2026-03-19T22:51:36.413+0000] {triggerer_job_runner.py:510} INFO - 0 triggers currently running
+airflow-triggerer-1  | [2026-03-19T22:52:36.464+0000] {triggerer_job_runner.py:510} INFO - 0 triggers currently running
+airflow-triggerer-1  | [2026-03-19T22:53:36.515+0000] {triggerer_job_runner.py:510} INFO - 0 triggers currently running

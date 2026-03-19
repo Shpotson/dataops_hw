@@ -1,0 +1,58 @@
+mlflow-db  | The files belonging to this database system will be owned by user "postgres".
+mlflow-db  | This user must also own the server process.
+mlflow-db  |
+mlflow-db  | The database cluster will be initialized with locale "en_US.utf8".
+mlflow-db  | The default database encoding has accordingly been set to "UTF8".
+mlflow-db  | The default text search configuration will be set to "english".
+mlflow-db  |
+mlflow-db  | Data page checksums are disabled.
+mlflow-db  |
+mlflow-db  | fixing permissions on existing directory /var/lib/postgresql/data ... ok
+mlflow-db  | creating subdirectories ... ok
+mlflow-db  | selecting dynamic shared memory implementation ... posix
+mlflow-db  | selecting default max_connections ... 100
+mlflow-db  | selecting default shared_buffers ... 128MB
+mlflow-db  | selecting default time zone ... UTC
+mlflow-db  | creating configuration files ... ok
+mlflow-db  | running bootstrap script ... ok
+mlflow-db  | sh: locale: not found
+mlflow-db  | 2026-03-19 20:56:06.837 UTC [35] WARNING:  no usable system locales were found
+mlflow-db  | performing post-bootstrap initialization ... ok
+mlflow-db  | syncing data to disk ... ok
+mlflow-db  |
+mlflow-db  |
+mlflow-db  | Success. You can now start the database server using:
+mlflow-db  |
+mlflow-db  |     pg_ctl -D /var/lib/postgresql/data -l logfile start
+mlflow-db  |
+mlflow-db  | initdb: warning: enabling "trust" authentication for local connections
+mlflow-db  | initdb: hint: You can change this by editing pg_hba.conf or using the option -A, or --auth-local and --auth-host, the next time you run initdb.
+mlflow-db  | waiting for server to start....2026-03-19 20:56:10.557 UTC [41] LOG:  starting PostgreSQL 16.6 on x86_64-pc-linux-musl, compiled by gcc (Alpine 14.2.0) 14.2.0, 64-bit
+mlflow-db  | 2026-03-19 20:56:10.571 UTC [41] LOG:  listening on Unix socket "/var/run/postgresql/.s.PGSQL.5432"
+mlflow-db  | 2026-03-19 20:56:10.606 UTC [44] LOG:  database system was shut down at 2026-03-19 20:56:07 UTC
+mlflow-db  | 2026-03-19 20:56:10.617 UTC [41] LOG:  database system is ready to accept connections
+mlflow-db  |  done
+mlflow-db  | server started
+mlflow-db  | CREATE DATABASE
+mlflow-db  |
+mlflow-db  |
+mlflow-db  | /usr/local/bin/docker-entrypoint.sh: ignoring /docker-entrypoint-initdb.d/*
+mlflow-db  |
+mlflow-db  | waiting for server to shut down....2026-03-19 20:56:10.737 UTC [41] LOG:  received fast shutdown request
+mlflow-db  | 2026-03-19 20:56:10.750 UTC [41] LOG:  aborting any active transactions
+mlflow-db  | 2026-03-19 20:56:10.751 UTC [41] LOG:  background worker "logical replication launcher" (PID 47) exited with exit code 1
+mlflow-db  | 2026-03-19 20:56:10.752 UTC [42] LOG:  shutting down
+mlflow-db  | 2026-03-19 20:56:10.764 UTC [42] LOG:  checkpoint starting: shutdown immediate
+mlflow-db  | .2026-03-19 20:56:11.816 UTC [42] LOG:  checkpoint complete: wrote 924 buffers (5.6%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.037 s, sync=0.974 s, total=1.065 s; sync files=301, longest=0.029 s, average=0.004 s; distance=4267 kB, estimate=4267 kB; lsn=0/191AB68, redo lsn=0/191AB68
+mlflow-db  | 2026-03-19 20:56:11.821 UTC [41] LOG:  database system is shut down
+mlflow-db  |  done
+mlflow-db  | server stopped
+mlflow-db  |
+mlflow-db  | PostgreSQL init process complete; ready for start up.
+mlflow-db  |
+mlflow-db  | 2026-03-19 20:56:11.871 UTC [1] LOG:  starting PostgreSQL 16.6 on x86_64-pc-linux-musl, compiled by gcc (Alpine 14.2.0) 14.2.0, 64-bit
+mlflow-db  | 2026-03-19 20:56:11.871 UTC [1] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+mlflow-db  | 2026-03-19 20:56:11.871 UTC [1] LOG:  listening on IPv6 address "::", port 5432
+mlflow-db  | 2026-03-19 20:56:11.898 UTC [1] LOG:  listening on Unix socket "/var/run/postgresql/.s.PGSQL.5432"
+mlflow-db  | 2026-03-19 20:56:11.923 UTC [57] LOG:  database system was shut down at 2026-03-19 20:56:11 UTC
+mlflow-db  | 2026-03-19 20:56:11.935 UTC [1] LOG:  database system is ready to accept connections

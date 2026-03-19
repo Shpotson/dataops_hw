@@ -1,0 +1,85 @@
+failed to get console mode for stdout: The handle is invalid.
+airflow-init-1  | 
+airflow-init-1  | DB: postgresql+psycopg2://airflow:***@postgres/airflow
+airflow-init-1  | Performing upgrade to the metadata database postgresql+psycopg2://airflow:***@postgres/airflow
+airflow-init-1  | [2026-03-19T22:47:26.304+0000] {migration.py:207} INFO - Context impl PostgresqlImpl.
+airflow-init-1  | [2026-03-19T22:47:26.304+0000] {migration.py:210} INFO - Will assume transactional DDL.
+airflow-init-1  | [2026-03-19T22:47:26.306+0000] {migration.py:207} INFO - Context impl PostgresqlImpl.
+airflow-init-1  | [2026-03-19T22:47:26.306+0000] {migration.py:210} INFO - Will assume transactional DDL.
+airflow-init-1  | INFO  [alembic.runtime.migration] Context impl PostgresqlImpl.
+airflow-init-1  | INFO  [alembic.runtime.migration] Will assume transactional DDL.
+airflow-init-1  | INFO  [alembic.runtime.migration] Running stamp_revision  -> 5f2621c13b39
+airflow-init-1  | Database migrating done!
+airflow-init-1  | WARNING: Environment variable '_AIRFLOW_DB_UPGRADE' is deprecated please use '_AIRFLOW_DB_MIGRATE' instead
+airflow-init-1  | /home/airflow/.local/lib/python3.12/site-packages/flask_limiter/extension.py:333 UserWarning: Using the in-memory storage for tracking rate limits as no storage was explicitly specified. This is not recommended for production use. See: https://flask-limiter.readthedocs.io#configuring-a-storage-backend for documentation about configuring the storage backend.
+airflow-init-1  | [2026-03-19T22:47:32.573+0000] {override.py:1507} INFO - Inserted Role: Admin
+airflow-init-1  | [2026-03-19T22:47:32.576+0000] {override.py:964} WARNING - No user yet created, use flask fab command to do it.
+airflow-init-1  | [2026-03-19T22:47:32.636+0000] {override.py:1911} INFO - Created Permission View: can edit on Passwords
+airflow-init-1  | [2026-03-19T22:47:32.644+0000] {override.py:1962} INFO - Added Permission can edit on Passwords to role Admin
+airflow-init-1  | [2026-03-19T22:47:32.659+0000] {override.py:1911} INFO - Created Permission View: can read on Passwords
+airflow-init-1  | [2026-03-19T22:47:32.669+0000] {override.py:1962} INFO - Added Permission can read on Passwords to role Admin
+airflow-init-1  | [2026-03-19T22:47:32.691+0000] {override.py:1911} INFO - Created Permission View: can edit on My Password
+airflow-init-1  | [2026-03-19T22:47:32.704+0000] {override.py:1962} INFO - Added Permission can edit on My Password to role Admin
+airflow-init-1  | [2026-03-19T22:47:32.715+0000] {override.py:1911} INFO - Created Permission View: can read on My Password
+airflow-init-1  | [2026-03-19T22:47:32.724+0000] {override.py:1962} INFO - Added Permission can read on My Password to role Admin
+airflow-init-1  | [2026-03-19T22:47:32.745+0000] {override.py:1911} INFO - Created Permission View: can edit on My Profile
+airflow-init-1  | [2026-03-19T22:47:32.753+0000] {override.py:1962} INFO - Added Permission can edit on My Profile to role Admin
+airflow-init-1  | [2026-03-19T22:47:32.762+0000] {override.py:1911} INFO - Created Permission View: can read on My Profile
+airflow-init-1  | [2026-03-19T22:47:32.769+0000] {override.py:1962} INFO - Added Permission can read on My Profile to role Admin
+airflow-init-1  | [2026-03-19T22:47:32.815+0000] {override.py:1911} INFO - Created Permission View: can create on Users
+airflow-init-1  | [2026-03-19T22:47:32.822+0000] {override.py:1962} INFO - Added Permission can create on Users to role Admin
+airflow-init-1  | [2026-03-19T22:47:32.833+0000] {override.py:1911} INFO - Created Permission View: can read on Users
+airflow-init-1  | [2026-03-19T22:47:32.842+0000] {override.py:1962} INFO - Added Permission can read on Users to role Admin
+airflow-init-1  | [2026-03-19T22:47:32.852+0000] {override.py:1911} INFO - Created Permission View: can edit on Users
+airflow-init-1  | [2026-03-19T22:47:32.861+0000] {override.py:1962} INFO - Added Permission can edit on Users to role Admin
+airflow-init-1  | [2026-03-19T22:47:32.878+0000] {override.py:1911} INFO - Created Permission View: can delete on Users
+airflow-init-1  | [2026-03-19T22:47:32.887+0000] {override.py:1962} INFO - Added Permission can delete on Users to role Admin
+airflow-init-1  | [2026-03-19T22:47:32.909+0000] {override.py:1911} INFO - Created Permission View: menu access on List Users
+airflow-init-1  | [2026-03-19T22:47:32.917+0000] {override.py:1962} INFO - Added Permission menu access on List Users to role Admin
+airflow-init-1  | [2026-03-19T22:47:32.933+0000] {override.py:1911} INFO - Created Permission View: menu access on Security
+airflow-init-1  | [2026-03-19T22:47:32.941+0000] {override.py:1962} INFO - Added Permission menu access on Security to role Admin
+airflow-init-1  | [2026-03-19T22:47:32.969+0000] {override.py:1911} INFO - Created Permission View: can create on Roles
+airflow-init-1  | [2026-03-19T22:47:32.979+0000] {override.py:1962} INFO - Added Permission can create on Roles to role Admin
+airflow-init-1  | [2026-03-19T22:47:32.990+0000] {override.py:1911} INFO - Created Permission View: can read on Roles
+airflow-init-1  | [2026-03-19T22:47:32.999+0000] {override.py:1962} INFO - Added Permission can read on Roles to role Admin
+airflow-init-1  | [2026-03-19T22:47:33.010+0000] {override.py:1911} INFO - Created Permission View: can edit on Roles
+airflow-init-1  | [2026-03-19T22:47:33.019+0000] {override.py:1962} INFO - Added Permission can edit on Roles to role Admin
+airflow-init-1  | [2026-03-19T22:47:33.031+0000] {override.py:1911} INFO - Created Permission View: can delete on Roles
+airflow-init-1  | [2026-03-19T22:47:33.041+0000] {override.py:1962} INFO - Added Permission can delete on Roles to role Admin
+airflow-init-1  | [2026-03-19T22:47:33.060+0000] {override.py:1911} INFO - Created Permission View: menu access on List Roles
+airflow-init-1  | [2026-03-19T22:47:33.069+0000] {override.py:1962} INFO - Added Permission menu access on List Roles to role Admin
+airflow-init-1  | [2026-03-19T22:47:33.091+0000] {override.py:1911} INFO - Created Permission View: can read on User Stats Chart
+airflow-init-1  | [2026-03-19T22:47:33.099+0000] {override.py:1962} INFO - Added Permission can read on User Stats Chart to role Admin
+airflow-init-1  | [2026-03-19T22:47:33.115+0000] {override.py:1911} INFO - Created Permission View: menu access on User's Statistics
+airflow-init-1  | [2026-03-19T22:47:33.123+0000] {override.py:1962} INFO - Added Permission menu access on User's Statistics to role Admin
+airflow-init-1  | [2026-03-19T22:47:33.159+0000] {override.py:1911} INFO - Created Permission View: can read on Permissions
+airflow-init-1  | [2026-03-19T22:47:33.169+0000] {override.py:1962} INFO - Added Permission can read on Permissions to role Admin
+airflow-init-1  | [2026-03-19T22:47:33.190+0000] {override.py:1911} INFO - Created Permission View: menu access on Actions
+airflow-init-1  | [2026-03-19T22:47:33.200+0000] {override.py:1962} INFO - Added Permission menu access on Actions to role Admin
+airflow-init-1  | [2026-03-19T22:47:33.236+0000] {override.py:1911} INFO - Created Permission View: can read on View Menus
+airflow-init-1  | [2026-03-19T22:47:33.244+0000] {override.py:1962} INFO - Added Permission can read on View Menus to role Admin
+airflow-init-1  | [2026-03-19T22:47:33.262+0000] {override.py:1911} INFO - Created Permission View: menu access on Resources
+airflow-init-1  | [2026-03-19T22:47:33.271+0000] {override.py:1962} INFO - Added Permission menu access on Resources to role Admin
+airflow-init-1  | [2026-03-19T22:47:33.304+0000] {override.py:1911} INFO - Created Permission View: can read on Permission Views
+airflow-init-1  | [2026-03-19T22:47:33.312+0000] {override.py:1962} INFO - Added Permission can read on Permission Views to role Admin
+airflow-init-1  | [2026-03-19T22:47:33.331+0000] {override.py:1911} INFO - Created Permission View: menu access on Permission Pairs
+airflow-init-1  | [2026-03-19T22:47:33.341+0000] {override.py:1962} INFO - Added Permission menu access on Permission Pairs to role Admin
+airflow-init-1  | [2026-03-19T22:47:35.513+0000] {override.py:1596} INFO - Added user admin
+airflow-init-1  | User "admin" created with role "Admin"
+airflow-init-1  | /home/airflow/.local/lib/python3.12/site-packages/airflow/utils/providers_configuration_loader.py:55 DeprecationWarning: `db init` is deprecated.  Use `db migrate` instead to migrate the db and/or airflow connections create-default-connections to create the default connections
+airflow-init-1  | DB: postgresql+psycopg2://airflow:***@postgres/airflow
+airflow-init-1  | [2026-03-19T22:47:38.355+0000] {migration.py:207} INFO - Context impl PostgresqlImpl.
+airflow-init-1  | [2026-03-19T22:47:38.356+0000] {migration.py:210} INFO - Will assume transactional DDL.
+airflow-init-1  | [2026-03-19T22:47:38.574+0000] {migration.py:207} INFO - Context impl PostgresqlImpl.
+airflow-init-1  | [2026-03-19T22:47:38.574+0000] {migration.py:210} INFO - Will assume transactional DDL.
+airflow-init-1  | [2026-03-19T22:47:38.577+0000] {migration.py:207} INFO - Context impl PostgresqlImpl.
+airflow-init-1  | [2026-03-19T22:47:38.577+0000] {migration.py:210} INFO - Will assume transactional DDL.
+airflow-init-1  | [2026-03-19T22:47:38.578+0000] {db.py:1675} INFO - Creating tables
+airflow-init-1  | INFO  [alembic.runtime.migration] Context impl PostgresqlImpl.
+airflow-init-1  | INFO  [alembic.runtime.migration] Will assume transactional DDL.
+airflow-init-1  | INFO  [alembic.runtime.migration] Context impl PostgresqlImpl.
+airflow-init-1  | INFO  [alembic.runtime.migration] Will assume transactional DDL.
+airflow-init-1  | WARNI [airflow.models.crypto] empty cryptography key - values will not be stored encrypted.
+airflow-init-1  | Initialization done
+airflow-init-1  | /home/airflow/.local/lib/python3.12/site-packages/flask_limiter/extension.py:333 UserWarning: Using the in-memory storage for tracking rate limits as no storage was explicitly specified. This is not recommended for production use. See: https://flask-limiter.readthedocs.io#configuring-a-storage-backend for documentation about configuring the storage backend.
+airflow-init-1  | admin already exist in the db

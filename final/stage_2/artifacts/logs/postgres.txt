@@ -1,0 +1,87 @@
+failed to get console mode for stdout: The handle is invalid.
+postgres-1  | The files belonging to this database system will be owned by user "postgres".
+postgres-1  | This user must also own the server process.
+postgres-1  | 
+postgres-1  | The database cluster will be initialized with locale "en_US.utf8".
+postgres-1  | The default database encoding has accordingly been set to "UTF8".
+postgres-1  | The default text search configuration will be set to "english".
+postgres-1  | 
+postgres-1  | Data page checksums are disabled.
+postgres-1  | 
+postgres-1  | fixing permissions on existing directory /var/lib/postgresql/data ... ok
+postgres-1  | creating subdirectories ... ok
+postgres-1  | selecting dynamic shared memory implementation ... posix
+postgres-1  | selecting default max_connections ... 100
+postgres-1  | selecting default shared_buffers ... 128MB
+postgres-1  | selecting default time zone ... Etc/UTC
+postgres-1  | creating configuration files ... ok
+postgres-1  | running bootstrap script ... ok
+postgres-1  | performing post-bootstrap initialization ... ok
+postgres-1  | initdb: warning: enabling "trust" authentication for local connections
+postgres-1  | You can change this by editing pg_hba.conf or using the option -A, or
+postgres-1  | --auth-local and --auth-host, the next time you run initdb.
+postgres-1  | syncing data to disk ... ok
+postgres-1  | 
+postgres-1  | 
+postgres-1  | Success. You can now start the database server using:
+postgres-1  | 
+postgres-1  |     pg_ctl -D /var/lib/postgresql/data -l logfile start
+postgres-1  | 
+postgres-1  | waiting for server to start....2026-03-19 22:47:13.276 UTC [49] LOG:  starting PostgreSQL 13.18 (Debian 13.18-1.pgdg120+1) on x86_64-pc-linux-gnu, compiled by gcc (Debian 12.2.0-14) 12.2.0, 64-bit
+postgres-1  | 2026-03-19 22:47:13.290 UTC [49] LOG:  listening on Unix socket "/var/run/postgresql/.s.PGSQL.5432"
+postgres-1  | 2026-03-19 22:47:13.325 UTC [50] LOG:  database system was shut down at 2026-03-19 22:47:10 UTC
+postgres-1  | 2026-03-19 22:47:13.338 UTC [49] LOG:  database system is ready to accept connections
+postgres-1  |  done
+postgres-1  | server started
+postgres-1  | 2026-03-19 22:47:14.381 UTC [68] FATAL:  database "airflow" does not exist
+postgres-1  | CREATE DATABASE
+postgres-1  | 
+postgres-1  | 
+postgres-1  | /usr/local/bin/docker-entrypoint.sh: ignoring /docker-entrypoint-initdb.d/*
+postgres-1  | 
+postgres-1  | waiting for server to shut down....2026-03-19 22:47:14.520 UTC [49] LOG:  received fast shutdown request
+postgres-1  | 2026-03-19 22:47:14.530 UTC [49] LOG:  aborting any active transactions
+postgres-1  | 2026-03-19 22:47:14.532 UTC [49] LOG:  background worker "logical replication launcher" (PID 56) exited with exit code 1
+postgres-1  | 2026-03-19 22:47:14.532 UTC [51] LOG:  shutting down
+postgres-1  | 2026-03-19 22:47:14.604 UTC [49] LOG:  database system is shut down
+postgres-1  |  done
+postgres-1  | server stopped
+postgres-1  | 
+postgres-1  | PostgreSQL init process complete; ready for start up.
+postgres-1  | 
+postgres-1  | 2026-03-19 22:47:14.671 UTC [1] LOG:  starting PostgreSQL 13.18 (Debian 13.18-1.pgdg120+1) on x86_64-pc-linux-gnu, compiled by gcc (Debian 12.2.0-14) 12.2.0, 64-bit
+postgres-1  | 2026-03-19 22:47:14.671 UTC [1] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+postgres-1  | 2026-03-19 22:47:14.671 UTC [1] LOG:  listening on IPv6 address "::", port 5432
+postgres-1  | 2026-03-19 22:47:14.695 UTC [1] LOG:  listening on Unix socket "/var/run/postgresql/.s.PGSQL.5432"
+postgres-1  | 2026-03-19 22:47:14.722 UTC [71] LOG:  database system was shut down at 2026-03-19 22:47:14 UTC
+postgres-1  | 2026-03-19 22:47:14.738 UTC [1] LOG:  database system is ready to accept connections
+postgres-1  | 2026-03-19 22:47:22.999 UTC [87] ERROR:  relation "log" does not exist at character 13
+postgres-1  | 2026-03-19 22:47:22.999 UTC [87] STATEMENT:  INSERT INTO log (dttm, event, owner, extra) VALUES ('2026-03-19T22:47:22.973877+00:00'::timestamptz, 'cli_check', 'airflow', '{"host_name": "dffc67c79f6b", "full_command": "[''/home/airflow/.local/bin/airflow'', ''db'', ''check'']"}') RETURNING log.id
+postgres-1  | 2026-03-19 22:47:22.999 UTC [86] ERROR:  relation "log" does not exist at character 13
+postgres-1  | 2026-03-19 22:47:22.999 UTC [86] STATEMENT:  INSERT INTO log (dttm, event, owner, extra) VALUES ('2026-03-19T22:47:22.973903+00:00'::timestamptz, 'cli_check', 'airflow', '{"host_name": "14e9d166a1c1", "full_command": "[''/home/airflow/.local/bin/airflow'', ''db'', ''check'']"}') RETURNING log.id
+postgres-1  | 2026-03-19 22:47:22.999 UTC [85] ERROR:  relation "log" does not exist at character 13
+postgres-1  | 2026-03-19 22:47:22.999 UTC [85] STATEMENT:  INSERT INTO log (dttm, event, owner, extra) VALUES ('2026-03-19T22:47:22.973809+00:00'::timestamptz, 'cli_check', 'airflow', '{"host_name": "72090aab6b80", "full_command": "[''/home/airflow/.local/bin/airflow'', ''db'', ''check'']"}') RETURNING log.id
+postgres-1  | 2026-03-19 22:47:22.999 UTC [88] ERROR:  relation "log" does not exist at character 13
+postgres-1  | 2026-03-19 22:47:22.999 UTC [88] STATEMENT:  INSERT INTO log (dttm, event, owner, extra) VALUES ('2026-03-19T22:47:22.973868+00:00'::timestamptz, 'cli_check', 'airflow', '{"host_name": "554ab3a8e3c2", "full_command": "[''/home/airflow/.local/bin/airflow'', ''db'', ''check'']"}') RETURNING log.id
+postgres-1  | 2026-03-19 22:47:25.669 UTC [96] ERROR:  relation "log" does not exist at character 13
+postgres-1  | 2026-03-19 22:47:25.669 UTC [96] STATEMENT:  INSERT INTO log (dttm, event, owner, extra) VALUES ('2026-03-19T22:47:25.662272+00:00'::timestamptz, 'cli_migratedb', 'airflow', '{"host_name": "72090aab6b80", "full_command": "[''/home/airflow/.local/bin/airflow'', ''db'', ''migrate'']"}') RETURNING log.id
+postgres-1  | 2026-03-19 22:47:25.685 UTC [97] ERROR:  relation "log" does not exist at character 13
+postgres-1  | 2026-03-19 22:47:25.685 UTC [97] STATEMENT:  INSERT INTO log (dttm, event, owner, extra) VALUES ('2026-03-19T22:47:25.678618+00:00'::timestamptz, 'cli_webserver', 'airflow', '{"host_name": "554ab3a8e3c2", "full_command": "[''/home/airflow/.local/bin/airflow'', ''webserver'']"}') RETURNING log.id
+postgres-1  | 2026-03-19 22:47:25.706 UTC [98] ERROR:  relation "log" does not exist at character 13
+postgres-1  | 2026-03-19 22:47:25.706 UTC [98] STATEMENT:  INSERT INTO log (dttm, event, owner, extra) VALUES ('2026-03-19T22:47:25.697865+00:00'::timestamptz, 'cli_triggerer', 'airflow', '{"host_name": "dffc67c79f6b", "full_command": "[''/home/airflow/.local/bin/airflow'', ''triggerer'']"}') RETURNING log.id
+postgres-1  | 2026-03-19 22:47:26.277 UTC [96] ERROR:  relation "connection" does not exist at character 33
+postgres-1  | 2026-03-19 22:47:26.277 UTC [96] STATEMENT:  SELECT connection.conn_id 
+postgres-1  | 	FROM connection GROUP BY connection.conn_id 
+postgres-1  | 	HAVING count(*) > 1
+postgres-1  | 2026-03-19 22:47:26.278 UTC [96] ERROR:  relation "connection" does not exist at character 33
+postgres-1  | 2026-03-19 22:47:26.278 UTC [96] STATEMENT:  SELECT connection.conn_id 
+postgres-1  | 	FROM connection 
+postgres-1  | 	WHERE connection.conn_type IS NULL
+postgres-1  | 2026-03-19 22:47:26.299 UTC [96] ERROR:  relation "ab_user" does not exist at character 31
+postgres-1  | 2026-03-19 22:47:26.299 UTC [96] STATEMENT:  SELECT ab_user.username 
+postgres-1  | 	FROM ab_user GROUP BY ab_user.username 
+postgres-1  | 	HAVING count(*) > 1
+postgres-1  | 2026-03-19 22:47:26.301 UTC [96] ERROR:  relation "ab_register_user" does not exist at character 40
+postgres-1  | 2026-03-19 22:47:26.301 UTC [96] STATEMENT:  SELECT ab_register_user.username 
+postgres-1  | 	FROM ab_register_user GROUP BY ab_register_user.username 
+postgres-1  | 	HAVING count(*) > 1

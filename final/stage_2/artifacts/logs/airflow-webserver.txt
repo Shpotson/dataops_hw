@@ -1,0 +1,501 @@
+failed to get console mode for stdout: The handle is invalid.
+airflow-webserver-1  | [2026-03-19T22:47:42.735+0000] {override.py:1962} INFO - Added Permission can create on Datasets to role Op
+airflow-webserver-1  | [2026-03-19T22:47:42.741+0000] {override.py:1962} INFO - Added Permission can read on Configurations to role Op
+airflow-webserver-1  | [2026-03-19T22:47:42.748+0000] {override.py:1962} INFO - Added Permission menu access on Admin to role Op
+airflow-webserver-1  | [2026-03-19T22:47:42.756+0000] {override.py:1962} INFO - Added Permission menu access on Configurations to role Op
+airflow-webserver-1  | [2026-03-19T22:47:42.764+0000] {override.py:1962} INFO - Added Permission menu access on Connections to role Op
+airflow-webserver-1  | [2026-03-19T22:47:42.772+0000] {override.py:1962} INFO - Added Permission menu access on Pools to role Op
+airflow-webserver-1  | [2026-03-19T22:47:42.780+0000] {override.py:1962} INFO - Added Permission menu access on Plugins to role Op
+airflow-webserver-1  | [2026-03-19T22:47:42.788+0000] {override.py:1962} INFO - Added Permission menu access on Variables to role Op
+airflow-webserver-1  | [2026-03-19T22:47:42.797+0000] {override.py:1962} INFO - Added Permission menu access on Providers to role Op
+airflow-webserver-1  | [2026-03-19T22:47:42.805+0000] {override.py:1962} INFO - Added Permission menu access on XComs to role Op
+airflow-webserver-1  | [2026-03-19T22:47:42.814+0000] {override.py:1962} INFO - Added Permission can create on Connections to role Op
+airflow-webserver-1  | [2026-03-19T22:47:42.823+0000] {override.py:1962} INFO - Added Permission can read on Connections to role Op
+airflow-webserver-1  | [2026-03-19T22:47:42.831+0000] {override.py:1962} INFO - Added Permission can edit on Connections to role Op
+airflow-webserver-1  | [2026-03-19T22:47:42.838+0000] {override.py:1962} INFO - Added Permission can delete on Connections to role Op
+airflow-webserver-1  | [2026-03-19T22:47:42.847+0000] {override.py:1962} INFO - Added Permission can create on Pools to role Op
+airflow-webserver-1  | [2026-03-19T22:47:42.857+0000] {override.py:1962} INFO - Added Permission can edit on Pools to role Op
+airflow-webserver-1  | [2026-03-19T22:47:42.870+0000] {override.py:1962} INFO - Added Permission can delete on Pools to role Op
+airflow-webserver-1  | [2026-03-19T22:47:42.882+0000] {override.py:1962} INFO - Added Permission can read on Plugins to role Op
+airflow-webserver-1  | [2026-03-19T22:47:42.896+0000] {override.py:1962} INFO - Added Permission can read on Providers to role Op
+airflow-webserver-1  | [2026-03-19T22:47:42.906+0000] {override.py:1962} INFO - Added Permission can create on Variables to role Op
+airflow-webserver-1  | [2026-03-19T22:47:42.915+0000] {override.py:1962} INFO - Added Permission can read on Variables to role Op
+airflow-webserver-1  | [2026-03-19T22:47:42.922+0000] {override.py:1962} INFO - Added Permission can edit on Variables to role Op
+airflow-webserver-1  | [2026-03-19T22:47:42.929+0000] {override.py:1962} INFO - Added Permission can delete on Variables to role Op
+airflow-webserver-1  | [2026-03-19T22:47:42.935+0000] {override.py:1962} INFO - Added Permission can delete on XComs to role Op
+airflow-webserver-1  | [2026-03-19T22:47:42.944+0000] {override.py:1911} INFO - Created Permission View: can delete on Datasets
+airflow-webserver-1  | [2026-03-19T22:47:42.955+0000] {override.py:1962} INFO - Added Permission can delete on Datasets to role Op
+airflow-webserver-1  | [2026-03-19T22:47:42.965+0000] {override.py:1962} INFO - Added Permission can read on DAGs to role Admin
+airflow-webserver-1  | [2026-03-19T22:47:42.974+0000] {override.py:1962} INFO - Added Permission can read on DAG Dependencies to role Admin
+airflow-webserver-1  | [2026-03-19T22:47:42.984+0000] {override.py:1962} INFO - Added Permission can read on DAG Code to role Admin
+airflow-webserver-1  | [2026-03-19T22:47:42.993+0000] {override.py:1962} INFO - Added Permission can read on Datasets to role Admin
+airflow-webserver-1  | [2026-03-19T22:47:43.005+0000] {override.py:1962} INFO - Added Permission can read on Cluster Activity to role Admin
+airflow-webserver-1  | [2026-03-19T22:47:43.016+0000] {override.py:1962} INFO - Added Permission can read on ImportError to role Admin
+airflow-webserver-1  | [2026-03-19T22:47:43.024+0000] {override.py:1962} INFO - Added Permission can read on DAG Warnings to role Admin
+airflow-webserver-1  | [2026-03-19T22:47:43.033+0000] {override.py:1962} INFO - Added Permission can read on Task Logs to role Admin
+airflow-webserver-1  | [2026-03-19T22:47:43.041+0000] {override.py:1962} INFO - Added Permission can read on Website to role Admin
+airflow-webserver-1  | [2026-03-19T22:47:43.047+0000] {override.py:1962} INFO - Added Permission can edit on DAGs to role Admin
+airflow-webserver-1  | [2026-03-19T22:47:43.054+0000] {override.py:1962} INFO - Added Permission can delete on DAGs to role Admin
+airflow-webserver-1  | [2026-03-19T22:47:43.063+0000] {override.py:1962} INFO - Added Permission can create on Datasets to role Admin
+airflow-webserver-1  | [2026-03-19T22:47:43.072+0000] {override.py:1962} INFO - Added Permission can delete on Datasets to role Admin
+airflow-webserver-1  | [2026-03-19 22:47:43 +0000] [15] [INFO] Starting gunicorn 23.0.0
+airflow-webserver-1  | [2026-03-19T22:47:49.328+0000] {providers_manager.py:287} INFO - Optional provider feature disabled when importing 'airflow.providers.google.leveldb.hooks.leveldb.LevelDBHook' from 'apache-airflow-providers-google' package
+airflow-webserver-1  | /home/airflow/.local/lib/python3.12/site-packages/azure/batch/models/_models_py3.py:4839 SyntaxWarning: invalid escape sequence '\s'
+airflow-webserver-1  | /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:175 SyntaxWarning: invalid escape sequence '\d'
+airflow-webserver-1  | /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:222 SyntaxWarning: invalid escape sequence '\d'
+airflow-webserver-1  | /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:1151 SyntaxWarning: invalid escape sequence '\d'
+airflow-webserver-1  | /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:1248 SyntaxWarning: invalid escape sequence '\d'
+airflow-webserver-1  | /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:1271 SyntaxWarning: invalid escape sequence '\d'
+airflow-webserver-1  | /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:1406 SyntaxWarning: invalid escape sequence '\d'
+airflow-webserver-1  | /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:1439 SyntaxWarning: invalid escape sequence '\d'
+airflow-webserver-1  | /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:1495 SyntaxWarning: invalid escape sequence '\d'
+airflow-webserver-1  | /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:1683 SyntaxWarning: invalid escape sequence '\d'
+airflow-webserver-1  | /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:1750 SyntaxWarning: invalid escape sequence '\d'
+airflow-webserver-1  | /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:2025 SyntaxWarning: invalid escape sequence '\d'
+airflow-webserver-1  | /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:2110 SyntaxWarning: invalid escape sequence '\d'
+airflow-webserver-1  | /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:2407 SyntaxWarning: invalid escape sequence '\d'
+airflow-webserver-1  | /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:2468 SyntaxWarning: invalid escape sequence '\d'
+airflow-webserver-1  | /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:3987 SyntaxWarning: invalid escape sequence '\d'
+airflow-webserver-1  | /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:4096 SyntaxWarning: invalid escape sequence '\d'
+airflow-webserver-1  | /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:4127 SyntaxWarning: invalid escape sequence '\d'
+airflow-webserver-1  | /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:4186 SyntaxWarning: invalid escape sequence '\d'
+airflow-webserver-1  | /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:4225 SyntaxWarning: invalid escape sequence '\d'
+airflow-webserver-1  | /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:4275 SyntaxWarning: invalid escape sequence '\d'
+airflow-webserver-1  | /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:5209 SyntaxWarning: invalid escape sequence '\d'
+airflow-webserver-1  | /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:5265 SyntaxWarning: invalid escape sequence '\d'
+airflow-webserver-1  | /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:5302 SyntaxWarning: invalid escape sequence '\d'
+airflow-webserver-1  | /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:5358 SyntaxWarning: invalid escape sequence '\d'
+airflow-webserver-1  | /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:6437 SyntaxWarning: invalid escape sequence '\d'
+airflow-webserver-1  | /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:6497 SyntaxWarning: invalid escape sequence '\d'
+airflow-webserver-1  | /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:6538 SyntaxWarning: invalid escape sequence '\d'
+airflow-webserver-1  | /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:6588 SyntaxWarning: invalid escape sequence '\d'
+airflow-webserver-1  | /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:7023 SyntaxWarning: invalid escape sequence '\d'
+airflow-webserver-1  | /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:7096 SyntaxWarning: invalid escape sequence '\d'
+airflow-webserver-1  | /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:7267 SyntaxWarning: invalid escape sequence '\d'
+airflow-webserver-1  | /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:7333 SyntaxWarning: invalid escape sequence '\d'
+airflow-webserver-1  | /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:7378 SyntaxWarning: invalid escape sequence '\d'
+airflow-webserver-1  | /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:7440 SyntaxWarning: invalid escape sequence '\d'
+airflow-webserver-1  | /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:8222 SyntaxWarning: invalid escape sequence '\d'
+airflow-webserver-1  | /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:8282 SyntaxWarning: invalid escape sequence '\d'
+airflow-webserver-1  | /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:8322 SyntaxWarning: invalid escape sequence '\d'
+airflow-webserver-1  | /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:8368 SyntaxWarning: invalid escape sequence '\d'
+airflow-webserver-1  | /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:9475 SyntaxWarning: invalid escape sequence '\d'
+airflow-webserver-1  | /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:9531 SyntaxWarning: invalid escape sequence '\d'
+airflow-webserver-1  | /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:10532 SyntaxWarning: invalid escape sequence '\d'
+airflow-webserver-1  | /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:10588 SyntaxWarning: invalid escape sequence '\d'
+airflow-webserver-1  | /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:10625 SyntaxWarning: invalid escape sequence '\d'
+airflow-webserver-1  | /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:10680 SyntaxWarning: invalid escape sequence '\d'
+airflow-webserver-1  | /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:10923 SyntaxWarning: invalid escape sequence '\d'
+airflow-webserver-1  | /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:10979 SyntaxWarning: invalid escape sequence '\d'
+airflow-webserver-1  | /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:11016 SyntaxWarning: invalid escape sequence '\d'
+airflow-webserver-1  | /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:11072 SyntaxWarning: invalid escape sequence '\d'
+airflow-webserver-1  | /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:11231 SyntaxWarning: invalid escape sequence '\d'
+airflow-webserver-1  | /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:11282 SyntaxWarning: invalid escape sequence '\d'
+airflow-webserver-1  | /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:11420 SyntaxWarning: invalid escape sequence '\d'
+airflow-webserver-1  | /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:11477 SyntaxWarning: invalid escape sequence '\d'
+airflow-webserver-1  | /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:12300 SyntaxWarning: invalid escape sequence '\d'
+airflow-webserver-1  | /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:12383 SyntaxWarning: invalid escape sequence '\d'
+airflow-webserver-1  | /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:12439 SyntaxWarning: invalid escape sequence '\d'
+airflow-webserver-1  | /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:12524 SyntaxWarning: invalid escape sequence '\d'
+airflow-webserver-1  | /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:13019 SyntaxWarning: invalid escape sequence '\d'
+airflow-webserver-1  | /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:13090 SyntaxWarning: invalid escape sequence '\d'
+airflow-webserver-1  | /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:13139 SyntaxWarning: invalid escape sequence '\d'
+airflow-webserver-1  | /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:13200 SyntaxWarning: invalid escape sequence '\d'
+airflow-webserver-1  | /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:13886 SyntaxWarning: invalid escape sequence '\d'
+airflow-webserver-1  | /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:13941 SyntaxWarning: invalid escape sequence '\d'
+airflow-webserver-1  | /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:13977 SyntaxWarning: invalid escape sequence '\d'
+airflow-webserver-1  | /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:14026 SyntaxWarning: invalid escape sequence '\d'
+airflow-webserver-1  | /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:14318 SyntaxWarning: invalid escape sequence '\d'
+airflow-webserver-1  | /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:14388 SyntaxWarning: invalid escape sequence '\d'
+airflow-webserver-1  | /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:14436 SyntaxWarning: invalid escape sequence '\d'
+airflow-webserver-1  | /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:14492 SyntaxWarning: invalid escape sequence '\d'
+airflow-webserver-1  | /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:14744 SyntaxWarning: invalid escape sequence '\d'
+airflow-webserver-1  | /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:14810 SyntaxWarning: invalid escape sequence '\d'
+airflow-webserver-1  | /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:15415 SyntaxWarning: invalid escape sequence '\d'
+airflow-webserver-1  | /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:15482 SyntaxWarning: invalid escape sequence '\d'
+airflow-webserver-1  | /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:15527 SyntaxWarning: invalid escape sequence '\d'
+airflow-webserver-1  | /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:15578 SyntaxWarning: invalid escape sequence '\d'
+airflow-webserver-1  | /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:15897 SyntaxWarning: invalid escape sequence '\d'
+airflow-webserver-1  | /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:15953 SyntaxWarning: invalid escape sequence '\d'
+airflow-webserver-1  | /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:16617 SyntaxWarning: invalid escape sequence '\d'
+airflow-webserver-1  | /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:16674 SyntaxWarning: invalid escape sequence '\d'
+airflow-webserver-1  | /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:16712 SyntaxWarning: invalid escape sequence '\d'
+airflow-webserver-1  | /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:16780 SyntaxWarning: invalid escape sequence '\d'
+airflow-webserver-1  | /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:16932 SyntaxWarning: invalid escape sequence '\d'
+airflow-webserver-1  | /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:16988 SyntaxWarning: invalid escape sequence '\d'
+airflow-webserver-1  | /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:17025 SyntaxWarning: invalid escape sequence '\d'
+airflow-webserver-1  | /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:17090 SyntaxWarning: invalid escape sequence '\d'
+airflow-webserver-1  | /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:17228 SyntaxWarning: invalid escape sequence '\d'
+airflow-webserver-1  | /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:17284 SyntaxWarning: invalid escape sequence '\d'
+airflow-webserver-1  | /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:20234 SyntaxWarning: invalid escape sequence '\d'
+airflow-webserver-1  | /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:20289 SyntaxWarning: invalid escape sequence '\d'
+airflow-webserver-1  | /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:20862 SyntaxWarning: invalid escape sequence '\d'
+airflow-webserver-1  | /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:20921 SyntaxWarning: invalid escape sequence '\d'
+airflow-webserver-1  | /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:20960 SyntaxWarning: invalid escape sequence '\d'
+airflow-webserver-1  | /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:21014 SyntaxWarning: invalid escape sequence '\d'
+airflow-webserver-1  | /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:21316 SyntaxWarning: invalid escape sequence '\d'
+airflow-webserver-1  | /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:21377 SyntaxWarning: invalid escape sequence '\d'
+airflow-webserver-1  | /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:21418 SyntaxWarning: invalid escape sequence '\d'
+airflow-webserver-1  | /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:21478 SyntaxWarning: invalid escape sequence '\d'
+airflow-webserver-1  | /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:21612 SyntaxWarning: invalid escape sequence '\d'
+airflow-webserver-1  | /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:21668 SyntaxWarning: invalid escape sequence '\d'
+airflow-webserver-1  | /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:22155 SyntaxWarning: invalid escape sequence '\d'
+airflow-webserver-1  | /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:22218 SyntaxWarning: invalid escape sequence '\d'
+airflow-webserver-1  | /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:22559 SyntaxWarning: invalid escape sequence '\d'
+airflow-webserver-1  | /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:22626 SyntaxWarning: invalid escape sequence '\d'
+airflow-webserver-1  | /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:22671 SyntaxWarning: invalid escape sequence '\d'
+airflow-webserver-1  | /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:22722 SyntaxWarning: invalid escape sequence '\d'
+airflow-webserver-1  | /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:23061 SyntaxWarning: invalid escape sequence '\d'
+airflow-webserver-1  | /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:23128 SyntaxWarning: invalid escape sequence '\d'
+airflow-webserver-1  | /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:23173 SyntaxWarning: invalid escape sequence '\d'
+airflow-webserver-1  | /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:23224 SyntaxWarning: invalid escape sequence '\d'
+airflow-webserver-1  | /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:23511 SyntaxWarning: invalid escape sequence '\d'
+airflow-webserver-1  | /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:23567 SyntaxWarning: invalid escape sequence '\d'
+airflow-webserver-1  | /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:23968 SyntaxWarning: invalid escape sequence '\d'
+airflow-webserver-1  | /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:24018 SyntaxWarning: invalid escape sequence '\d'
+airflow-webserver-1  | /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:25343 SyntaxWarning: invalid escape sequence '\d'
+airflow-webserver-1  | /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:25398 SyntaxWarning: invalid escape sequence '\d'
+airflow-webserver-1  | /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:25434 SyntaxWarning: invalid escape sequence '\d'
+airflow-webserver-1  | /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:25485 SyntaxWarning: invalid escape sequence '\d'
+airflow-webserver-1  | /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:26723 SyntaxWarning: invalid escape sequence '\d'
+airflow-webserver-1  | /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:26779 SyntaxWarning: invalid escape sequence '\d'
+airflow-webserver-1  | /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:27121 SyntaxWarning: invalid escape sequence '\d'
+airflow-webserver-1  | /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:27177 SyntaxWarning: invalid escape sequence '\d'
+airflow-webserver-1  | /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:27461 SyntaxWarning: invalid escape sequence '\d'
+airflow-webserver-1  | /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:27517 SyntaxWarning: invalid escape sequence '\d'
+airflow-webserver-1  | /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:28053 SyntaxWarning: invalid escape sequence '\d'
+airflow-webserver-1  | /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:28109 SyntaxWarning: invalid escape sequence '\d'
+airflow-webserver-1  | /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:28536 SyntaxWarning: invalid escape sequence '\d'
+airflow-webserver-1  | /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:28592 SyntaxWarning: invalid escape sequence '\d'
+airflow-webserver-1  | /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:28932 SyntaxWarning: invalid escape sequence '\d'
+airflow-webserver-1  | /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:28982 SyntaxWarning: invalid escape sequence '\d'
+airflow-webserver-1  | /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:30727 SyntaxWarning: invalid escape sequence '\d'
+airflow-webserver-1  | /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:30783 SyntaxWarning: invalid escape sequence '\d'
+airflow-webserver-1  | /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:31296 SyntaxWarning: invalid escape sequence '\d'
+airflow-webserver-1  | /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:31344 SyntaxWarning: invalid escape sequence '\d'
+airflow-webserver-1  | /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:31617 SyntaxWarning: invalid escape sequence '\d'
+airflow-webserver-1  | /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:31673 SyntaxWarning: invalid escape sequence '\d'
+airflow-webserver-1  | /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:32120 SyntaxWarning: invalid escape sequence '\d'
+airflow-webserver-1  | /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:32176 SyntaxWarning: invalid escape sequence '\d'
+airflow-webserver-1  | /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:32339 SyntaxWarning: invalid escape sequence '\d'
+airflow-webserver-1  | /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:32395 SyntaxWarning: invalid escape sequence '\d'
+airflow-webserver-1  | /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:32432 SyntaxWarning: invalid escape sequence '\d'
+airflow-webserver-1  | /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:32487 SyntaxWarning: invalid escape sequence '\d'
+airflow-webserver-1  | /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:33502 SyntaxWarning: invalid escape sequence '\d'
+airflow-webserver-1  | /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:33558 SyntaxWarning: invalid escape sequence '\d'
+airflow-webserver-1  | /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:33869 SyntaxWarning: invalid escape sequence '\d'
+airflow-webserver-1  | /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:33928 SyntaxWarning: invalid escape sequence '\d'
+airflow-webserver-1  | /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:33967 SyntaxWarning: invalid escape sequence '\d'
+airflow-webserver-1  | /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:34021 SyntaxWarning: invalid escape sequence '\d'
+airflow-webserver-1  | /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:34739 SyntaxWarning: invalid escape sequence '\d'
+airflow-webserver-1  | /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:34806 SyntaxWarning: invalid escape sequence '\d'
+airflow-webserver-1  | /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:34852 SyntaxWarning: invalid escape sequence '\d'
+airflow-webserver-1  | /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:34908 SyntaxWarning: invalid escape sequence '\d'
+airflow-webserver-1  | /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:36915 SyntaxWarning: invalid escape sequence '\d'
+airflow-webserver-1  | /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:36971 SyntaxWarning: invalid escape sequence '\d'
+airflow-webserver-1  | /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:37417 SyntaxWarning: invalid escape sequence '\d'
+airflow-webserver-1  | /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:37473 SyntaxWarning: invalid escape sequence '\d'
+airflow-webserver-1  | /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:37845 SyntaxWarning: invalid escape sequence '\d'
+airflow-webserver-1  | /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:37901 SyntaxWarning: invalid escape sequence '\d'
+airflow-webserver-1  | /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:38208 SyntaxWarning: invalid escape sequence '\d'
+airflow-webserver-1  | /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:38264 SyntaxWarning: invalid escape sequence '\d'
+airflow-webserver-1  | /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:38301 SyntaxWarning: invalid escape sequence '\d'
+airflow-webserver-1  | /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:38351 SyntaxWarning: invalid escape sequence '\d'
+airflow-webserver-1  | /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:38690 SyntaxWarning: invalid escape sequence '\d'
+airflow-webserver-1  | /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:38758 SyntaxWarning: invalid escape sequence '\d'
+airflow-webserver-1  | /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:39141 SyntaxWarning: invalid escape sequence '\d'
+airflow-webserver-1  | /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:39192 SyntaxWarning: invalid escape sequence '\d'
+airflow-webserver-1  | /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:39419 SyntaxWarning: invalid escape sequence '\d'
+airflow-webserver-1  | /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:39487 SyntaxWarning: invalid escape sequence '\d'
+airflow-webserver-1  | /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:39683 SyntaxWarning: invalid escape sequence '\d'
+airflow-webserver-1  | /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:39738 SyntaxWarning: invalid escape sequence '\d'
+airflow-webserver-1  | /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:40019 SyntaxWarning: invalid escape sequence '\d'
+airflow-webserver-1  | /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:40084 SyntaxWarning: invalid escape sequence '\d'
+airflow-webserver-1  | /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:41138 SyntaxWarning: invalid escape sequence '\d'
+airflow-webserver-1  | /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:41196 SyntaxWarning: invalid escape sequence '\d'
+airflow-webserver-1  | /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:41359 SyntaxWarning: invalid escape sequence '\d'
+airflow-webserver-1  | /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:41415 SyntaxWarning: invalid escape sequence '\d'
+airflow-webserver-1  | /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:41452 SyntaxWarning: invalid escape sequence '\d'
+airflow-webserver-1  | /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:41507 SyntaxWarning: invalid escape sequence '\d'
+airflow-webserver-1  | /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:41875 SyntaxWarning: invalid escape sequence '\d'
+airflow-webserver-1  | /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:41947 SyntaxWarning: invalid escape sequence '\d'
+airflow-webserver-1  | /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:42441 SyntaxWarning: invalid escape sequence '\d'
+airflow-webserver-1  | /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:42497 SyntaxWarning: invalid escape sequence '\d'
+airflow-webserver-1  | /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:42534 SyntaxWarning: invalid escape sequence '\d'
+airflow-webserver-1  | /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:42590 SyntaxWarning: invalid escape sequence '\d'
+airflow-webserver-1  | /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:42627 SyntaxWarning: invalid escape sequence '\d'
+airflow-webserver-1  | /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:42692 SyntaxWarning: invalid escape sequence '\d'
+airflow-webserver-1  | /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:43020 SyntaxWarning: invalid escape sequence '\d'
+airflow-webserver-1  | /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:43079 SyntaxWarning: invalid escape sequence '\d'
+airflow-webserver-1  | /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:43118 SyntaxWarning: invalid escape sequence '\d'
+airflow-webserver-1  | /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:43168 SyntaxWarning: invalid escape sequence '\d'
+airflow-webserver-1  | /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:43514 SyntaxWarning: invalid escape sequence '\d'
+airflow-webserver-1  | /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:43573 SyntaxWarning: invalid escape sequence '\d'
+airflow-webserver-1  | /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:43612 SyntaxWarning: invalid escape sequence '\d'
+airflow-webserver-1  | /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:43666 SyntaxWarning: invalid escape sequence '\d'
+airflow-webserver-1  | /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:43989 SyntaxWarning: invalid escape sequence '\d'
+airflow-webserver-1  | /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:44045 SyntaxWarning: invalid escape sequence '\d'
+airflow-webserver-1  | /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:44386 SyntaxWarning: invalid escape sequence '\d'
+airflow-webserver-1  | /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:44442 SyntaxWarning: invalid escape sequence '\d'
+airflow-webserver-1  | /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:45003 SyntaxWarning: invalid escape sequence '\d'
+airflow-webserver-1  | /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:45058 SyntaxWarning: invalid escape sequence '\d'
+airflow-webserver-1  | /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:45444 SyntaxWarning: invalid escape sequence '\d'
+airflow-webserver-1  | /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:45499 SyntaxWarning: invalid escape sequence '\d'
+airflow-webserver-1  | /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:46042 SyntaxWarning: invalid escape sequence '\d'
+airflow-webserver-1  | /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:46098 SyntaxWarning: invalid escape sequence '\d'
+airflow-webserver-1  | /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:46702 SyntaxWarning: invalid escape sequence '\d'
+airflow-webserver-1  | /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:46758 SyntaxWarning: invalid escape sequence '\d'
+airflow-webserver-1  | /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:47000 SyntaxWarning: invalid escape sequence '\d'
+airflow-webserver-1  | /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:47050 SyntaxWarning: invalid escape sequence '\d'
+airflow-webserver-1  | /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:47648 SyntaxWarning: invalid escape sequence '\d'
+airflow-webserver-1  | /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:47704 SyntaxWarning: invalid escape sequence '\d'
+airflow-webserver-1  | /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:48113 SyntaxWarning: invalid escape sequence '\d'
+airflow-webserver-1  | /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:48190 SyntaxWarning: invalid escape sequence '\d'
+airflow-webserver-1  | /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:48244 SyntaxWarning: invalid escape sequence '\d'
+airflow-webserver-1  | /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:48321 SyntaxWarning: invalid escape sequence '\d'
+airflow-webserver-1  | /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:49499 SyntaxWarning: invalid escape sequence '\d'
+airflow-webserver-1  | /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:49555 SyntaxWarning: invalid escape sequence '\d'
+airflow-webserver-1  | /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:49932 SyntaxWarning: invalid escape sequence '\d'
+airflow-webserver-1  | /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:50002 SyntaxWarning: invalid escape sequence '\d'
+airflow-webserver-1  | /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:50052 SyntaxWarning: invalid escape sequence '\d'
+airflow-webserver-1  | /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:50107 SyntaxWarning: invalid escape sequence '\d'
+airflow-webserver-1  | /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:50379 SyntaxWarning: invalid escape sequence '\d'
+airflow-webserver-1  | /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:50449 SyntaxWarning: invalid escape sequence '\d'
+airflow-webserver-1  | /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:50499 SyntaxWarning: invalid escape sequence '\d'
+airflow-webserver-1  | /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:50554 SyntaxWarning: invalid escape sequence '\d'
+airflow-webserver-1  | /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:50590 SyntaxWarning: invalid escape sequence '\d'
+airflow-webserver-1  | /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:50660 SyntaxWarning: invalid escape sequence '\d'
+airflow-webserver-1  | /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:50710 SyntaxWarning: invalid escape sequence '\d'
+airflow-webserver-1  | /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:50770 SyntaxWarning: invalid escape sequence '\d'
+airflow-webserver-1  | /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:51046 SyntaxWarning: invalid escape sequence '\d'
+airflow-webserver-1  | /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:51116 SyntaxWarning: invalid escape sequence '\d'
+airflow-webserver-1  | /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:51166 SyntaxWarning: invalid escape sequence '\d'
+airflow-webserver-1  | /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:51226 SyntaxWarning: invalid escape sequence '\d'
+airflow-webserver-1  | /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:51485 SyntaxWarning: invalid escape sequence '\d'
+airflow-webserver-1  | /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:51540 SyntaxWarning: invalid escape sequence '\d'
+airflow-webserver-1  | /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:51787 SyntaxWarning: invalid escape sequence '\d'
+airflow-webserver-1  | /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:51851 SyntaxWarning: invalid escape sequence '\d'
+airflow-webserver-1  | /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:51895 SyntaxWarning: invalid escape sequence '\d'
+airflow-webserver-1  | /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:51958 SyntaxWarning: invalid escape sequence '\d'
+airflow-webserver-1  | /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:52212 SyntaxWarning: invalid escape sequence '\d'
+airflow-webserver-1  | /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:52275 SyntaxWarning: invalid escape sequence '\d'
+airflow-webserver-1  | /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:52463 SyntaxWarning: invalid escape sequence '\d'
+airflow-webserver-1  | /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:52532 SyntaxWarning: invalid escape sequence '\d'
+airflow-webserver-1  | /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:53040 SyntaxWarning: invalid escape sequence '\d'
+airflow-webserver-1  | /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:53111 SyntaxWarning: invalid escape sequence '\d'
+airflow-webserver-1  | /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:53334 SyntaxWarning: invalid escape sequence '\d'
+airflow-webserver-1  | /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:53407 SyntaxWarning: invalid escape sequence '\d'
+airflow-webserver-1  | /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:53961 SyntaxWarning: invalid escape sequence '\d'
+airflow-webserver-1  | /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:54059 SyntaxWarning: invalid escape sequence '\d'
+airflow-webserver-1  | /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:54322 SyntaxWarning: invalid escape sequence '\d'
+airflow-webserver-1  | /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:54398 SyntaxWarning: invalid escape sequence '\d'
+airflow-webserver-1  | /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:55022 SyntaxWarning: invalid escape sequence '\d'
+airflow-webserver-1  | /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:55078 SyntaxWarning: invalid escape sequence '\d'
+airflow-webserver-1  | /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:55310 SyntaxWarning: invalid escape sequence '\d'
+airflow-webserver-1  | /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:55365 SyntaxWarning: invalid escape sequence '\d'
+airflow-webserver-1  | /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:56196 SyntaxWarning: invalid escape sequence '\d'
+airflow-webserver-1  | /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:56248 SyntaxWarning: invalid escape sequence '\d'
+airflow-webserver-1  | /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:56508 SyntaxWarning: invalid escape sequence '\d'
+airflow-webserver-1  | /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:56564 SyntaxWarning: invalid escape sequence '\d'
+airflow-webserver-1  | /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:57087 SyntaxWarning: invalid escape sequence '\d'
+airflow-webserver-1  | /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:57147 SyntaxWarning: invalid escape sequence '\d'
+airflow-webserver-1  | /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:57187 SyntaxWarning: invalid escape sequence '\d'
+airflow-webserver-1  | /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:57237 SyntaxWarning: invalid escape sequence '\d'
+airflow-webserver-1  | /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:57560 SyntaxWarning: invalid escape sequence '\d'
+airflow-webserver-1  | /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:57620 SyntaxWarning: invalid escape sequence '\d'
+airflow-webserver-1  | /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:57660 SyntaxWarning: invalid escape sequence '\d'
+airflow-webserver-1  | /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:57710 SyntaxWarning: invalid escape sequence '\d'
+airflow-webserver-1  | /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:59106 SyntaxWarning: invalid escape sequence '\d'
+airflow-webserver-1  | /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:59162 SyntaxWarning: invalid escape sequence '\d'
+airflow-webserver-1  | /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:59316 SyntaxWarning: invalid escape sequence '\d'
+airflow-webserver-1  | /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:59396 SyntaxWarning: invalid escape sequence '\d'
+airflow-webserver-1  | /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:59452 SyntaxWarning: invalid escape sequence '\d'
+airflow-webserver-1  | /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:59535 SyntaxWarning: invalid escape sequence '\d'
+airflow-webserver-1  | /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:59594 SyntaxWarning: invalid escape sequence '\d'
+airflow-webserver-1  | /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:59677 SyntaxWarning: invalid escape sequence '\d'
+airflow-webserver-1  | /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:59733 SyntaxWarning: invalid escape sequence '\d'
+airflow-webserver-1  | /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:59818 SyntaxWarning: invalid escape sequence '\d'
+airflow-webserver-1  | /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:60639 SyntaxWarning: invalid escape sequence '\d'
+airflow-webserver-1  | /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:60722 SyntaxWarning: invalid escape sequence '\d'
+airflow-webserver-1  | /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:60778 SyntaxWarning: invalid escape sequence '\d'
+airflow-webserver-1  | /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:60863 SyntaxWarning: invalid escape sequence '\d'
+airflow-webserver-1  | /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:61167 SyntaxWarning: invalid escape sequence '\d'
+airflow-webserver-1  | /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:61250 SyntaxWarning: invalid escape sequence '\d'
+airflow-webserver-1  | /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:61306 SyntaxWarning: invalid escape sequence '\d'
+airflow-webserver-1  | /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:61387 SyntaxWarning: invalid escape sequence '\d'
+airflow-webserver-1  | /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:61696 SyntaxWarning: invalid escape sequence '\d'
+airflow-webserver-1  | /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:61752 SyntaxWarning: invalid escape sequence '\d'
+airflow-webserver-1  | /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:61954 SyntaxWarning: invalid escape sequence '\d'
+airflow-webserver-1  | /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:61992 SyntaxWarning: invalid escape sequence '\d'
+airflow-webserver-1  | /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:62660 SyntaxWarning: invalid escape sequence '\d'
+airflow-webserver-1  | /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:62715 SyntaxWarning: invalid escape sequence '\d'
+airflow-webserver-1  | /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:63882 SyntaxWarning: invalid escape sequence '\d'
+airflow-webserver-1  | /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:63946 SyntaxWarning: invalid escape sequence '\d'
+airflow-webserver-1  | /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:64582 SyntaxWarning: invalid escape sequence '\d'
+airflow-webserver-1  | /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:64674 SyntaxWarning: invalid escape sequence '\d'
+airflow-webserver-1  | /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:64940 SyntaxWarning: invalid escape sequence '\d'
+airflow-webserver-1  | /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:65014 SyntaxWarning: invalid escape sequence '\d'
+airflow-webserver-1  | /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:65117 SyntaxWarning: invalid escape sequence '\d'
+airflow-webserver-1  | /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:65199 SyntaxWarning: invalid escape sequence '\d'
+airflow-webserver-1  | /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:65385 SyntaxWarning: invalid escape sequence '\d'
+airflow-webserver-1  | /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:65441 SyntaxWarning: invalid escape sequence '\d'
+airflow-webserver-1  | /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:65874 SyntaxWarning: invalid escape sequence '\d'
+airflow-webserver-1  | /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:65950 SyntaxWarning: invalid escape sequence '\d'
+airflow-webserver-1  | /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:66003 SyntaxWarning: invalid escape sequence '\d'
+airflow-webserver-1  | /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:66087 SyntaxWarning: invalid escape sequence '\d'
+airflow-webserver-1  | /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:66686 SyntaxWarning: invalid escape sequence '\d'
+airflow-webserver-1  | /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:66779 SyntaxWarning: invalid escape sequence '\d'
+airflow-webserver-1  | /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:66918 SyntaxWarning: invalid escape sequence '\d'
+airflow-webserver-1  | /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:66964 SyntaxWarning: invalid escape sequence '\d'
+airflow-webserver-1  | /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:67735 SyntaxWarning: invalid escape sequence '\d'
+airflow-webserver-1  | /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:67791 SyntaxWarning: invalid escape sequence '\d'
+airflow-webserver-1  | /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:68043 SyntaxWarning: invalid escape sequence '\d'
+airflow-webserver-1  | /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:68097 SyntaxWarning: invalid escape sequence '\d'
+airflow-webserver-1  | /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:68532 SyntaxWarning: invalid escape sequence '\d'
+airflow-webserver-1  | /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:68588 SyntaxWarning: invalid escape sequence '\d'
+airflow-webserver-1  | [2026-03-19 22:47:53 +0000] [15] [INFO] Listening at: http://0.0.0.0:8080 (15)
+airflow-webserver-1  | [2026-03-19 22:47:53 +0000] [15] [INFO] Using worker: sync
+airflow-webserver-1  | [2026-03-19 22:47:53 +0000] [52] [INFO] Booting worker with pid: 52
+airflow-webserver-1  | [2026-03-19 22:47:53 +0000] [53] [INFO] Booting worker with pid: 53
+airflow-webserver-1  | [2026-03-19 22:47:53 +0000] [54] [INFO] Booting worker with pid: 54
+airflow-webserver-1  | [2026-03-19 22:47:53 +0000] [55] [INFO] Booting worker with pid: 55
+airflow-webserver-1  | 172.27.0.1 - - [19/Mar/2026:22:47:57 +0000] "GET /home HTTP/1.1" 302 285 "http://localhost:8080/home" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 OPR/128.0.0.0"
+airflow-webserver-1  | /home/airflow/.local/lib/python3.12/site-packages/airflow/www/security_manager.py:257 AirflowProviderDeprecationWarning: is_authorized_dataset will be renamed as is_authorized_asset in Airflow 3 and will be removed when the minimum Airflow version is set to 3.0 for the fab provider
+airflow-webserver-1  | 172.27.0.1 - - [19/Mar/2026:22:47:58 +0000] "GET /login/?next=http%3A%2F%2Flocalhost%3A8080%2Fhome HTTP/1.1" 200 18637 "http://localhost:8080/home" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 OPR/128.0.0.0"
+airflow-webserver-1  | 127.0.0.1 - - [19/Mar/2026:22:47:58 +0000] "GET /health HTTP/1.1" 200 318 "-" "curl/7.88.1"
+airflow-webserver-1  | 127.0.0.1 - - [19/Mar/2026:22:48:08 +0000] "GET /health HTTP/1.1" 200 318 "-" "curl/7.88.1"
+airflow-webserver-1  | [2026-03-19T22:48:10.789+0000] {override.py:1678} INFO - Updated user Airflow Admin
+airflow-webserver-1  | 172.27.0.1 - - [19/Mar/2026:22:48:10 +0000] "POST /login/?next=http%3A%2F%2Flocalhost%3A8080%2Fhome HTTP/1.1" 302 239 "http://localhost:8080/login/?next=http%3A%2F%2Flocalhost%3A8080%2Fhome" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 OPR/128.0.0.0"
+airflow-webserver-1  | /home/airflow/.local/lib/python3.12/site-packages/airflow/www/security_manager.py:257 AirflowProviderDeprecationWarning: is_authorized_dataset will be renamed as is_authorized_asset in Airflow 3 and will be removed when the minimum Airflow version is set to 3.0 for the fab provider
+airflow-webserver-1  | 172.27.0.1 - - [19/Mar/2026:22:48:12 +0000] "GET /home HTTP/1.1" 200 595679 "http://localhost:8080/login/?next=http%3A%2F%2Flocalhost%3A8080%2Fhome" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 OPR/128.0.0.0"
+airflow-webserver-1  | 172.27.0.1 - - [19/Mar/2026:22:48:14 +0000] "POST /last_dagruns HTTP/1.1" 200 2 "http://localhost:8080/home" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 OPR/128.0.0.0"
+airflow-webserver-1  | 172.27.0.1 - - [19/Mar/2026:22:48:14 +0000] "POST /blocked HTTP/1.1" 200 2 "http://localhost:8080/home" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 OPR/128.0.0.0"
+airflow-webserver-1  | 172.27.0.1 - - [19/Mar/2026:22:48:14 +0000] "POST /dag_stats HTTP/1.1" 200 12595 "http://localhost:8080/home" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 OPR/128.0.0.0"
+airflow-webserver-1  | 172.27.0.1 - - [19/Mar/2026:22:48:14 +0000] "POST /task_stats HTTP/1.1" 200 39970 "http://localhost:8080/home" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 OPR/128.0.0.0"
+airflow-webserver-1  | 127.0.0.1 - - [19/Mar/2026:22:48:18 +0000] "GET /health HTTP/1.1" 200 318 "-" "curl/7.88.1"
+airflow-webserver-1  | 127.0.0.1 - - [19/Mar/2026:22:48:28 +0000] "GET /health HTTP/1.1" 200 318 "-" "curl/7.88.1"
+airflow-webserver-1  | 127.0.0.1 - - [19/Mar/2026:22:48:38 +0000] "GET /health HTTP/1.1" 200 318 "-" "curl/7.88.1"
+airflow-webserver-1  | 127.0.0.1 - - [19/Mar/2026:22:48:48 +0000] "GET /health HTTP/1.1" 200 318 "-" "curl/7.88.1"
+airflow-webserver-1  | /home/airflow/.local/lib/python3.12/site-packages/airflow/www/auth.py:291 AirflowProviderDeprecationWarning: is_authorized_dataset will be renamed as is_authorized_asset in Airflow 3 and will be removed when the minimum Airflow version is set to 3.0 for the fab provider
+airflow-webserver-1  | 172.27.0.1 - - [19/Mar/2026:22:48:53 +0000] "GET /object/next_run_datasets/consume_1_and_2_with_dataset_expressions HTTP/1.1" 200 209 "http://localhost:8080/home" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 OPR/128.0.0.0"
+airflow-webserver-1  | 127.0.0.1 - - [19/Mar/2026:22:48:58 +0000] "GET /health HTTP/1.1" 200 318 "-" "curl/7.88.1"
+airflow-webserver-1  | 127.0.0.1 - - [19/Mar/2026:22:49:08 +0000] "GET /health HTTP/1.1" 200 318 "-" "curl/7.88.1"
+airflow-webserver-1  | 172.27.0.1 - - [19/Mar/2026:22:49:16 +0000] "GET /dags/test_dag/grid HTTP/1.1" 200 9304 "http://localhost:8080/home" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 OPR/128.0.0.0"
+airflow-webserver-1  | 172.27.0.1 - - [19/Mar/2026:22:49:16 +0000] "GET /static/dist/dag.57f2664bba329d65029f.js HTTP/1.1" 200 0 "http://localhost:8080/dags/test_dag/grid" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 OPR/128.0.0.0"
+airflow-webserver-1  | 172.27.0.1 - - [19/Mar/2026:22:49:17 +0000] "GET /static/dist/grid.70939cd423edfd7d6e08.js HTTP/1.1" 200 0 "http://localhost:8080/dags/test_dag/grid" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 OPR/128.0.0.0"
+airflow-webserver-1  | 172.27.0.1 - - [19/Mar/2026:22:49:17 +0000] "GET /object/grid_data?dag_id=test_dag&num_runs=25 HTTP/1.1" 200 315 "http://localhost:8080/dags/test_dag/grid" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 OPR/128.0.0.0"
+airflow-webserver-1  | /home/airflow/.local/lib/python3.12/site-packages/airflow/www/auth.py:291 AirflowProviderDeprecationWarning: is_authorized_dataset will be renamed as is_authorized_asset in Airflow 3 and will be removed when the minimum Airflow version is set to 3.0 for the fab provider
+airflow-webserver-1  | 172.27.0.1 - - [19/Mar/2026:22:49:17 +0000] "GET /object/next_run_datasets/test_dag HTTP/1.1" 200 39 "http://localhost:8080/dags/test_dag/grid" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 OPR/128.0.0.0"
+airflow-webserver-1  | 172.27.0.1 - - [19/Mar/2026:22:49:17 +0000] "GET /api/v1/dags/test_dag HTTP/1.1" 200 1059 "http://localhost:8080/dags/test_dag/grid" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 OPR/128.0.0.0"
+airflow-webserver-1  | 172.27.0.1 - - [19/Mar/2026:22:49:17 +0000] "GET /api/v1/dags/test_dag/details HTTP/1.1" 200 1444 "http://localhost:8080/dags/test_dag/grid" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 OPR/128.0.0.0"
+airflow-webserver-1  | 127.0.0.1 - - [19/Mar/2026:22:49:19 +0000] "GET /health HTTP/1.1" 200 318 "-" "curl/7.88.1"
+airflow-webserver-1  | 127.0.0.1 - - [19/Mar/2026:22:49:29 +0000] "GET /health HTTP/1.1" 200 318 "-" "curl/7.88.1"
+airflow-webserver-1  | 127.0.0.1 - - [19/Mar/2026:22:49:39 +0000] "GET /health HTTP/1.1" 200 318 "-" "curl/7.88.1"
+airflow-webserver-1  | 127.0.0.1 - - [19/Mar/2026:22:49:49 +0000] "GET /health HTTP/1.1" 200 318 "-" "curl/7.88.1"
+airflow-webserver-1  | 127.0.0.1 - - [19/Mar/2026:22:49:59 +0000] "GET /health HTTP/1.1" 200 318 "-" "curl/7.88.1"
+airflow-webserver-1  | 127.0.0.1 - - [19/Mar/2026:22:50:09 +0000] "GET /health HTTP/1.1" 200 318 "-" "curl/7.88.1"
+airflow-webserver-1  | 172.27.0.1 - - [19/Mar/2026:22:50:09 +0000] "GET /parseDagFile/Ii9vcHQvYWlyZmxvdy9kYWdzL3Rlc3RfZGFnLnB5Ig.Eb4zfugFElHcFgg7bsiTHOIVIU0?redirect_url=%2Fdags%2Ftest_dag%2Fgrid HTTP/1.1" 302 267 "http://localhost:8080/dags/test_dag/grid" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 OPR/128.0.0.0"
+airflow-webserver-1  | 172.27.0.1 - - [19/Mar/2026:22:50:09 +0000] "GET /dags/test_dag/grid HTTP/1.1" 200 9357 "http://localhost:8080/dags/test_dag/grid" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 OPR/128.0.0.0"
+airflow-webserver-1  | 172.27.0.1 - - [19/Mar/2026:22:50:09 +0000] "GET /object/grid_data?dag_id=test_dag&num_runs=25 HTTP/1.1" 200 315 "http://localhost:8080/dags/test_dag/grid" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 OPR/128.0.0.0"
+airflow-webserver-1  | 172.27.0.1 - - [19/Mar/2026:22:50:09 +0000] "GET /object/next_run_datasets/test_dag HTTP/1.1" 200 39 "http://localhost:8080/dags/test_dag/grid" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 OPR/128.0.0.0"
+airflow-webserver-1  | 172.27.0.1 - - [19/Mar/2026:22:50:09 +0000] "GET /api/v1/dags/test_dag HTTP/1.1" 200 1059 "http://localhost:8080/dags/test_dag/grid" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 OPR/128.0.0.0"
+airflow-webserver-1  | 172.27.0.1 - - [19/Mar/2026:22:50:09 +0000] "GET /api/v1/dags/test_dag/details HTTP/1.1" 200 1444 "http://localhost:8080/dags/test_dag/grid" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 OPR/128.0.0.0"
+airflow-webserver-1  | 127.0.0.1 - - [19/Mar/2026:22:50:19 +0000] "GET /health HTTP/1.1" 200 318 "-" "curl/7.88.1"
+airflow-webserver-1  | [2026-03-19T22:50:20.245+0000] {delete_dag.py:54} INFO - Deleting DAG: test_dag
+airflow-webserver-1  | 172.27.0.1 - - [19/Mar/2026:22:50:20 +0000] "POST /delete?dag_id=test_dag&redirect_url=%2Fdags%2Ftest_dag%2Fgrid HTTP/1.1" 302 197 "http://localhost:8080/dags/test_dag/grid" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 OPR/128.0.0.0"
+airflow-webserver-1  | /home/airflow/.local/lib/python3.12/site-packages/airflow/www/security_manager.py:257 AirflowProviderDeprecationWarning: is_authorized_dataset will be renamed as is_authorized_asset in Airflow 3 and will be removed when the minimum Airflow version is set to 3.0 for the fab provider
+airflow-webserver-1  | 172.27.0.1 - - [19/Mar/2026:22:50:20 +0000] "GET /home HTTP/1.1" 200 588951 "http://localhost:8080/dags/test_dag/grid" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 OPR/128.0.0.0"
+airflow-webserver-1  | 172.27.0.1 - - [19/Mar/2026:22:50:21 +0000] "POST /blocked HTTP/1.1" 200 2 "http://localhost:8080/home" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 OPR/128.0.0.0"
+airflow-webserver-1  | 172.27.0.1 - - [19/Mar/2026:22:50:21 +0000] "POST /dag_stats HTTP/1.1" 200 12447 "http://localhost:8080/home" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 OPR/128.0.0.0"
+airflow-webserver-1  | 172.27.0.1 - - [19/Mar/2026:22:50:21 +0000] "POST /last_dagruns HTTP/1.1" 200 2 "http://localhost:8080/home" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 OPR/128.0.0.0"
+airflow-webserver-1  | 172.27.0.1 - - [19/Mar/2026:22:50:21 +0000] "POST /task_stats HTTP/1.1" 200 39457 "http://localhost:8080/home" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 OPR/128.0.0.0"
+airflow-webserver-1  | 172.27.0.1 - - [19/Mar/2026:22:50:22 +0000] "POST /last_dagruns HTTP/1.1" 200 2 "http://localhost:8080/home" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 OPR/128.0.0.0"
+airflow-webserver-1  | 172.27.0.1 - - [19/Mar/2026:22:50:22 +0000] "POST /dag_stats HTTP/1.1" 200 12447 "http://localhost:8080/home" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 OPR/128.0.0.0"
+airflow-webserver-1  | 172.27.0.1 - - [19/Mar/2026:22:50:22 +0000] "POST /next_run_datasets_summary HTTP/1.1" 200 760 "http://localhost:8080/home" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 OPR/128.0.0.0"
+airflow-webserver-1  | 172.27.0.1 - - [19/Mar/2026:22:50:22 +0000] "POST /task_stats HTTP/1.1" 200 39457 "http://localhost:8080/home" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 OPR/128.0.0.0"
+airflow-webserver-1  | 127.0.0.1 - - [19/Mar/2026:22:50:29 +0000] "GET /health HTTP/1.1" 200 318 "-" "curl/7.88.1"
+airflow-webserver-1  | 172.27.0.1 - - [19/Mar/2026:22:50:38 +0000] "POST /dag_stats HTTP/1.1" 200 12447 "http://localhost:8080/home" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 OPR/128.0.0.0"
+airflow-webserver-1  | 172.27.0.1 - - [19/Mar/2026:22:50:38 +0000] "POST /last_dagruns HTTP/1.1" 200 2 "http://localhost:8080/home" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 OPR/128.0.0.0"
+airflow-webserver-1  | 172.27.0.1 - - [19/Mar/2026:22:50:38 +0000] "POST /next_run_datasets_summary HTTP/1.1" 200 760 "http://localhost:8080/home" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 OPR/128.0.0.0"
+airflow-webserver-1  | 172.27.0.1 - - [19/Mar/2026:22:50:38 +0000] "POST /task_stats HTTP/1.1" 200 39457 "http://localhost:8080/home" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 OPR/128.0.0.0"
+airflow-webserver-1  | 127.0.0.1 - - [19/Mar/2026:22:50:39 +0000] "GET /health HTTP/1.1" 200 318 "-" "curl/7.88.1"
+airflow-webserver-1  | 127.0.0.1 - - [19/Mar/2026:22:50:49 +0000] "GET /health HTTP/1.1" 200 318 "-" "curl/7.88.1"
+airflow-webserver-1  | 127.0.0.1 - - [19/Mar/2026:22:50:59 +0000] "GET /health HTTP/1.1" 200 318 "-" "curl/7.88.1"
+airflow-webserver-1  | 172.27.0.1 - - [19/Mar/2026:22:51:08 +0000] "GET /home?status=active HTTP/1.1" 200 34697 "http://localhost:8080/home" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 OPR/128.0.0.0"
+airflow-webserver-1  | 127.0.0.1 - - [19/Mar/2026:22:51:09 +0000] "GET /health HTTP/1.1" 200 318 "-" "curl/7.88.1"
+airflow-webserver-1  | 172.27.0.1 - - [19/Mar/2026:22:51:09 +0000] "GET /home?status=paused HTTP/1.1" 200 595796 "http://localhost:8080/home?status=active" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 OPR/128.0.0.0"
+airflow-webserver-1  | 172.27.0.1 - - [19/Mar/2026:22:51:10 +0000] "POST /blocked HTTP/1.1" 200 2 "http://localhost:8080/home?status=paused" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 OPR/128.0.0.0"
+airflow-webserver-1  | 172.27.0.1 - - [19/Mar/2026:22:51:10 +0000] "POST /last_dagruns HTTP/1.1" 200 2 "http://localhost:8080/home?status=paused" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 OPR/128.0.0.0"
+airflow-webserver-1  | 172.27.0.1 - - [19/Mar/2026:22:51:10 +0000] "POST /dag_stats HTTP/1.1" 200 12598 "http://localhost:8080/home?status=paused" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 OPR/128.0.0.0"
+airflow-webserver-1  | 172.27.0.1 - - [19/Mar/2026:22:51:10 +0000] "POST /task_stats HTTP/1.1" 200 39973 "http://localhost:8080/home?status=paused" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 OPR/128.0.0.0"
+airflow-webserver-1  | /home/airflow/.local/lib/python3.12/site-packages/airflow/www/security_manager.py:257 AirflowProviderDeprecationWarning: is_authorized_dataset will be renamed as is_authorized_asset in Airflow 3 and will be removed when the minimum Airflow version is set to 3.0 for the fab provider
+airflow-webserver-1  | 172.27.0.1 - - [19/Mar/2026:22:51:11 +0000] "GET /home?status=all HTTP/1.1" 200 595775 "http://localhost:8080/home?status=paused" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 OPR/128.0.0.0"
+airflow-webserver-1  | 172.27.0.1 - - [19/Mar/2026:22:51:12 +0000] "POST /blocked HTTP/1.1" 200 2 "http://localhost:8080/home?status=all" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 OPR/128.0.0.0"
+airflow-webserver-1  | 172.27.0.1 - - [19/Mar/2026:22:51:12 +0000] "POST /last_dagruns HTTP/1.1" 200 2 "http://localhost:8080/home?status=all" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 OPR/128.0.0.0"
+airflow-webserver-1  | 172.27.0.1 - - [19/Mar/2026:22:51:12 +0000] "POST /dag_stats HTTP/1.1" 200 12598 "http://localhost:8080/home?status=all" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 OPR/128.0.0.0"
+airflow-webserver-1  | 172.27.0.1 - - [19/Mar/2026:22:51:12 +0000] "POST /task_stats HTTP/1.1" 200 39973 "http://localhost:8080/home?status=all" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 OPR/128.0.0.0"
+airflow-webserver-1  | 172.27.0.1 - - [19/Mar/2026:22:51:18 +0000] "GET /dags/my_test_dag/grid HTTP/1.1" 200 9313 "http://localhost:8080/home?status=all" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 OPR/128.0.0.0"
+airflow-webserver-1  | 172.27.0.1 - - [19/Mar/2026:22:51:19 +0000] "GET /object/next_run_datasets/my_test_dag HTTP/1.1" 200 39 "http://localhost:8080/dags/my_test_dag/grid" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 OPR/128.0.0.0"
+airflow-webserver-1  | 172.27.0.1 - - [19/Mar/2026:22:51:19 +0000] "GET /object/grid_data?dag_id=my_test_dag&num_runs=25 HTTP/1.1" 200 315 "http://localhost:8080/dags/my_test_dag/grid" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 OPR/128.0.0.0"
+airflow-webserver-1  | 172.27.0.1 - - [19/Mar/2026:22:51:19 +0000] "GET /api/v1/dags/my_test_dag HTTP/1.1" 200 1065 "http://localhost:8080/dags/my_test_dag/grid" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 OPR/128.0.0.0"
+airflow-webserver-1  | 172.27.0.1 - - [19/Mar/2026:22:51:19 +0000] "GET /api/v1/dags/my_test_dag/details HTTP/1.1" 200 1450 "http://localhost:8080/dags/my_test_dag/grid" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 OPR/128.0.0.0"
+airflow-webserver-1  | 127.0.0.1 - - [19/Mar/2026:22:51:19 +0000] "GET /health HTTP/1.1" 200 318 "-" "curl/7.88.1"
+airflow-webserver-1  | 172.27.0.1 - - [19/Mar/2026:22:51:28 +0000] "GET /dags/my_test_dag/grid HTTP/1.1" 200 9309 "http://localhost:8080/home?status=all" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 OPR/128.0.0.0"
+airflow-webserver-1  | 172.27.0.1 - - [19/Mar/2026:22:51:28 +0000] "GET /object/grid_data?dag_id=my_test_dag&num_runs=25 HTTP/1.1" 200 315 "http://localhost:8080/dags/my_test_dag/grid" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 OPR/128.0.0.0"
+airflow-webserver-1  | 172.27.0.1 - - [19/Mar/2026:22:51:28 +0000] "GET /object/next_run_datasets/my_test_dag HTTP/1.1" 200 39 "http://localhost:8080/dags/my_test_dag/grid" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 OPR/128.0.0.0"
+airflow-webserver-1  | 172.27.0.1 - - [19/Mar/2026:22:51:28 +0000] "GET /api/v1/dags/my_test_dag HTTP/1.1" 200 1065 "http://localhost:8080/dags/my_test_dag/grid" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 OPR/128.0.0.0"
+airflow-webserver-1  | 172.27.0.1 - - [19/Mar/2026:22:51:28 +0000] "GET /api/v1/dags/my_test_dag/details HTTP/1.1" 200 1450 "http://localhost:8080/dags/my_test_dag/grid" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 OPR/128.0.0.0"
+airflow-webserver-1  | 127.0.0.1 - - [19/Mar/2026:22:51:29 +0000] "GET /health HTTP/1.1" 200 318 "-" "curl/7.88.1"
+airflow-webserver-1  | /home/airflow/.local/lib/python3.12/site-packages/airflow/api_connexion/security.py:189 AirflowProviderDeprecationWarning: is_authorized_dataset will be renamed as is_authorized_asset in Airflow 3 and will be removed when the minimum Airflow version is set to 3.0 for the fab provider
+airflow-webserver-1  | 172.27.0.1 - - [19/Mar/2026:22:51:33 +0000] "GET /api/v1/datasets?dag_ids=my_test_dag HTTP/1.1" 200 44 "http://localhost:8080/dags/my_test_dag/grid?tab=graph" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 OPR/128.0.0.0"
+airflow-webserver-1  | 172.27.0.1 - - [19/Mar/2026:22:51:33 +0000] "GET /object/graph_data?dag_id=my_test_dag HTTP/1.1" 200 197 "http://localhost:8080/dags/my_test_dag/grid?tab=graph" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 OPR/128.0.0.0"
+airflow-webserver-1  | 172.27.0.1 - - [19/Mar/2026:22:51:38 +0000] "POST /paused?is_paused=true&dag_id=my_test_dag HTTP/1.1" 200 2 "http://localhost:8080/dags/my_test_dag/grid?tab=graph" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 OPR/128.0.0.0"
+airflow-webserver-1  | 127.0.0.1 - - [19/Mar/2026:22:51:39 +0000] "GET /health HTTP/1.1" 200 318 "-" "curl/7.88.1"
+airflow-webserver-1  | 172.27.0.1 - - [19/Mar/2026:22:51:42 +0000] "POST /dags/my_test_dag/trigger?origin=%2Fdags%2Fmy_test_dag%2Fgrid HTTP/1.1" 302 393 "http://localhost:8080/dags/my_test_dag/grid?tab=graph" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 OPR/128.0.0.0"
+airflow-webserver-1  | 172.27.0.1 - - [19/Mar/2026:22:51:42 +0000] "GET /dags/my_test_dag/grid?dag_run_id=manual__2026-03-19T22%3A51%3A42.146703%2B00%3A00 HTTP/1.1" 200 9437 "http://localhost:8080/dags/my_test_dag/grid?tab=graph" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 OPR/128.0.0.0"
+airflow-webserver-1  | 172.27.0.1 - - [19/Mar/2026:22:51:42 +0000] "GET /object/grid_data?dag_id=my_test_dag&num_runs=25 HTTP/1.1" 200 1583 "http://localhost:8080/dags/my_test_dag/grid?dag_run_id=manual__2026-03-19T22%3A51%3A42.146703%2B00%3A00" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 OPR/128.0.0.0"
+airflow-webserver-1  | 172.27.0.1 - - [19/Mar/2026:22:51:42 +0000] "GET /object/next_run_datasets/my_test_dag HTTP/1.1" 200 39 "http://localhost:8080/dags/my_test_dag/grid?dag_run_id=manual__2026-03-19T22%3A51%3A42.146703%2B00%3A00" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 OPR/128.0.0.0"
+airflow-webserver-1  | 172.27.0.1 - - [19/Mar/2026:22:51:45 +0000] "GET /object/grid_data?dag_id=my_test_dag&num_runs=25 HTTP/1.1" 200 1678 "http://localhost:8080/dags/my_test_dag/grid?dag_run_id=manual__2026-03-19T22%3A51%3A42.146703%2B00%3A00" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 OPR/128.0.0.0"
+airflow-webserver-1  | 172.27.0.1 - - [19/Mar/2026:22:51:48 +0000] "GET /object/grid_data?dag_id=my_test_dag&num_runs=25 HTTP/1.1" 200 1678 "http://localhost:8080/dags/my_test_dag/grid?dag_run_id=manual__2026-03-19T22%3A51%3A42.146703%2B00%3A00" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 OPR/128.0.0.0"
+airflow-webserver-1  | 127.0.0.1 - - [19/Mar/2026:22:51:49 +0000] "GET /health HTTP/1.1" 200 318 "-" "curl/7.88.1"
+airflow-webserver-1  | 172.27.0.1 - - [19/Mar/2026:22:51:51 +0000] "GET /object/grid_data?dag_id=my_test_dag&num_runs=25 HTTP/1.1" 200 1678 "http://localhost:8080/dags/my_test_dag/grid?dag_run_id=manual__2026-03-19T22%3A51%3A42.146703%2B00%3A00" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 OPR/128.0.0.0"
+airflow-webserver-1  | 172.27.0.1 - - [19/Mar/2026:22:51:54 +0000] "GET /object/grid_data?dag_id=my_test_dag&num_runs=25 HTTP/1.1" 200 1678 "http://localhost:8080/dags/my_test_dag/grid?dag_run_id=manual__2026-03-19T22%3A51%3A42.146703%2B00%3A00" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 OPR/128.0.0.0"
+airflow-webserver-1  | 172.27.0.1 - - [19/Mar/2026:22:51:57 +0000] "GET /object/grid_data?dag_id=my_test_dag&num_runs=25 HTTP/1.1" 200 1678 "http://localhost:8080/dags/my_test_dag/grid?dag_run_id=manual__2026-03-19T22%3A51%3A42.146703%2B00%3A00" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 OPR/128.0.0.0"
+airflow-webserver-1  | 127.0.0.1 - - [19/Mar/2026:22:51:59 +0000] "GET /health HTTP/1.1" 200 318 "-" "curl/7.88.1"
+airflow-webserver-1  | 172.27.0.1 - - [19/Mar/2026:22:52:00 +0000] "GET /object/grid_data?dag_id=my_test_dag&num_runs=25 HTTP/1.1" 200 2355 "http://localhost:8080/dags/my_test_dag/grid?dag_run_id=manual__2026-03-19T22%3A51%3A42.146703%2B00%3A00" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 OPR/128.0.0.0"
+airflow-webserver-1  | 172.27.0.1 - - [19/Mar/2026:22:52:03 +0000] "GET /object/grid_data?dag_id=my_test_dag&num_runs=25 HTTP/1.1" 200 2355 "http://localhost:8080/dags/my_test_dag/grid?dag_run_id=manual__2026-03-19T22%3A51%3A42.146703%2B00%3A00" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 OPR/128.0.0.0"
+airflow-webserver-1  | 172.27.0.1 - - [19/Mar/2026:22:52:06 +0000] "GET /object/grid_data?dag_id=my_test_dag&num_runs=25 HTTP/1.1" 200 2355 "http://localhost:8080/dags/my_test_dag/grid?dag_run_id=manual__2026-03-19T22%3A51%3A42.146703%2B00%3A00" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 OPR/128.0.0.0"
+airflow-webserver-1  | 127.0.0.1 - - [19/Mar/2026:22:52:09 +0000] "GET /health HTTP/1.1" 200 318 "-" "curl/7.88.1"
+airflow-webserver-1  | 172.27.0.1 - - [19/Mar/2026:22:52:09 +0000] "GET /object/grid_data?dag_id=my_test_dag&num_runs=25 HTTP/1.1" 200 2355 "http://localhost:8080/dags/my_test_dag/grid?dag_run_id=manual__2026-03-19T22%3A51%3A42.146703%2B00%3A00" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 OPR/128.0.0.0"
+airflow-webserver-1  | 172.27.0.1 - - [19/Mar/2026:22:52:12 +0000] "GET /object/grid_data?dag_id=my_test_dag&num_runs=25 HTTP/1.1" 200 2355 "http://localhost:8080/dags/my_test_dag/grid?dag_run_id=manual__2026-03-19T22%3A51%3A42.146703%2B00%3A00" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 OPR/128.0.0.0"
+airflow-webserver-1  | 172.27.0.1 - - [19/Mar/2026:22:52:15 +0000] "GET /object/grid_data?dag_id=my_test_dag&num_runs=25 HTTP/1.1" 200 2355 "http://localhost:8080/dags/my_test_dag/grid?dag_run_id=manual__2026-03-19T22%3A51%3A42.146703%2B00%3A00" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 OPR/128.0.0.0"
+airflow-webserver-1  | 172.27.0.1 - - [19/Mar/2026:22:52:18 +0000] "GET /object/grid_data?dag_id=my_test_dag&num_runs=25 HTTP/1.1" 200 2355 "http://localhost:8080/dags/my_test_dag/grid?dag_run_id=manual__2026-03-19T22%3A51%3A42.146703%2B00%3A00" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 OPR/128.0.0.0"
+airflow-webserver-1  | 127.0.0.1 - - [19/Mar/2026:22:52:19 +0000] "GET /health HTTP/1.1" 200 318 "-" "curl/7.88.1"
+airflow-webserver-1  | 172.27.0.1 - - [19/Mar/2026:22:52:21 +0000] "GET /object/grid_data?dag_id=my_test_dag&num_runs=25 HTTP/1.1" 200 2355 "http://localhost:8080/dags/my_test_dag/grid?dag_run_id=manual__2026-03-19T22%3A51%3A42.146703%2B00%3A00" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 OPR/128.0.0.0"
+airflow-webserver-1  | 172.27.0.1 - - [19/Mar/2026:22:52:25 +0000] "GET /object/grid_data?dag_id=my_test_dag&num_runs=25 HTTP/1.1" 200 2355 "http://localhost:8080/dags/my_test_dag/grid?dag_run_id=manual__2026-03-19T22%3A51%3A42.146703%2B00%3A00" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 OPR/128.0.0.0"
+airflow-webserver-1  | 172.27.0.1 - - [19/Mar/2026:22:52:28 +0000] "GET /object/grid_data?dag_id=my_test_dag&num_runs=25 HTTP/1.1" 200 2355 "http://localhost:8080/dags/my_test_dag/grid?dag_run_id=manual__2026-03-19T22%3A51%3A42.146703%2B00%3A00" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 OPR/128.0.0.0"
+airflow-webserver-1  | 127.0.0.1 - - [19/Mar/2026:22:52:29 +0000] "GET /health HTTP/1.1" 200 318 "-" "curl/7.88.1"
+airflow-webserver-1  | 172.27.0.1 - - [19/Mar/2026:22:52:31 +0000] "GET /object/grid_data?dag_id=my_test_dag&num_runs=25 HTTP/1.1" 200 2355 "http://localhost:8080/dags/my_test_dag/grid?dag_run_id=manual__2026-03-19T22%3A51%3A42.146703%2B00%3A00" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 OPR/128.0.0.0"
+airflow-webserver-1  | 172.27.0.1 - - [19/Mar/2026:22:52:34 +0000] "GET /object/grid_data?dag_id=my_test_dag&num_runs=25 HTTP/1.1" 200 2355 "http://localhost:8080/dags/my_test_dag/grid?dag_run_id=manual__2026-03-19T22%3A51%3A42.146703%2B00%3A00" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 OPR/128.0.0.0"
+airflow-webserver-1  | 172.27.0.1 - - [19/Mar/2026:22:52:37 +0000] "GET /object/grid_data?dag_id=my_test_dag&num_runs=25 HTTP/1.1" 200 2355 "http://localhost:8080/dags/my_test_dag/grid?dag_run_id=manual__2026-03-19T22%3A51%3A42.146703%2B00%3A00" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 OPR/128.0.0.0"
+airflow-webserver-1  | 127.0.0.1 - - [19/Mar/2026:22:52:39 +0000] "GET /health HTTP/1.1" 200 318 "-" "curl/7.88.1"
+airflow-webserver-1  | 172.27.0.1 - - [19/Mar/2026:22:52:40 +0000] "GET /object/grid_data?dag_id=my_test_dag&num_runs=25 HTTP/1.1" 200 2355 "http://localhost:8080/dags/my_test_dag/grid?dag_run_id=manual__2026-03-19T22%3A51%3A42.146703%2B00%3A00" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 OPR/128.0.0.0"
+airflow-webserver-1  | 172.27.0.1 - - [19/Mar/2026:22:52:43 +0000] "GET /object/grid_data?dag_id=my_test_dag&num_runs=25 HTTP/1.1" 200 2355 "http://localhost:8080/dags/my_test_dag/grid?dag_run_id=manual__2026-03-19T22%3A51%3A42.146703%2B00%3A00" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 OPR/128.0.0.0"
+airflow-webserver-1  | 172.27.0.1 - - [19/Mar/2026:22:52:46 +0000] "GET /object/grid_data?dag_id=my_test_dag&num_runs=25 HTTP/1.1" 200 2355 "http://localhost:8080/dags/my_test_dag/grid?dag_run_id=manual__2026-03-19T22%3A51%3A42.146703%2B00%3A00" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 OPR/128.0.0.0"
+airflow-webserver-1  | 172.27.0.1 - - [19/Mar/2026:22:52:49 +0000] "GET /object/grid_data?dag_id=my_test_dag&num_runs=25 HTTP/1.1" 200 2355 "http://localhost:8080/dags/my_test_dag/grid?dag_run_id=manual__2026-03-19T22%3A51%3A42.146703%2B00%3A00" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 OPR/128.0.0.0"
+airflow-webserver-1  | 127.0.0.1 - - [19/Mar/2026:22:52:49 +0000] "GET /health HTTP/1.1" 200 318 "-" "curl/7.88.1"
+airflow-webserver-1  | 172.27.0.1 - - [19/Mar/2026:22:52:52 +0000] "GET /object/grid_data?dag_id=my_test_dag&num_runs=25 HTTP/1.1" 200 2355 "http://localhost:8080/dags/my_test_dag/grid?dag_run_id=manual__2026-03-19T22%3A51%3A42.146703%2B00%3A00" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 OPR/128.0.0.0"
+airflow-webserver-1  | 172.27.0.1 - - [19/Mar/2026:22:52:55 +0000] "GET /object/grid_data?dag_id=my_test_dag&num_runs=25 HTTP/1.1" 200 2355 "http://localhost:8080/dags/my_test_dag/grid?dag_run_id=manual__2026-03-19T22%3A51%3A42.146703%2B00%3A00" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 OPR/128.0.0.0"
+airflow-webserver-1  | 172.27.0.1 - - [19/Mar/2026:22:52:58 +0000] "GET /object/grid_data?dag_id=my_test_dag&num_runs=25 HTTP/1.1" 200 2355 "http://localhost:8080/dags/my_test_dag/grid?dag_run_id=manual__2026-03-19T22%3A51%3A42.146703%2B00%3A00" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 OPR/128.0.0.0"
+airflow-webserver-1  | 127.0.0.1 - - [19/Mar/2026:22:52:59 +0000] "GET /health HTTP/1.1" 200 318 "-" "curl/7.88.1"
+airflow-webserver-1  | 172.27.0.1 - - [19/Mar/2026:22:53:01 +0000] "GET /object/grid_data?dag_id=my_test_dag&num_runs=25 HTTP/1.1" 200 3032 "http://localhost:8080/dags/my_test_dag/grid?dag_run_id=manual__2026-03-19T22%3A51%3A42.146703%2B00%3A00" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 OPR/128.0.0.0"
+airflow-webserver-1  | 127.0.0.1 - - [19/Mar/2026:22:53:09 +0000] "GET /health HTTP/1.1" 200 318 "-" "curl/7.88.1"
+airflow-webserver-1  | 127.0.0.1 - - [19/Mar/2026:22:53:19 +0000] "GET /health HTTP/1.1" 200 318 "-" "curl/7.88.1"
+airflow-webserver-1  | 127.0.0.1 - - [19/Mar/2026:22:53:29 +0000] "GET /health HTTP/1.1" 200 318 "-" "curl/7.88.1"
+airflow-webserver-1  | 127.0.0.1 - - [19/Mar/2026:22:53:39 +0000] "GET /health HTTP/1.1" 200 318 "-" "curl/7.88.1"
+airflow-webserver-1  | 127.0.0.1 - - [19/Mar/2026:22:53:49 +0000] "GET /health HTTP/1.1" 200 318 "-" "curl/7.88.1"
+airflow-webserver-1  | 127.0.0.1 - - [19/Mar/2026:22:53:59 +0000] "GET /health HTTP/1.1" 200 318 "-" "curl/7.88.1"
+airflow-webserver-1  | 127.0.0.1 - - [19/Mar/2026:22:54:09 +0000] "GET /health HTTP/1.1" 200 318 "-" "curl/7.88.1"
+airflow-webserver-1  | 127.0.0.1 - - [19/Mar/2026:22:54:19 +0000] "GET /health HTTP/1.1" 200 318 "-" "curl/7.88.1"
+airflow-webserver-1  | 127.0.0.1 - - [19/Mar/2026:22:54:29 +0000] "GET /health HTTP/1.1" 200 318 "-" "curl/7.88.1"
+airflow-webserver-1  | 127.0.0.1 - - [19/Mar/2026:22:54:39 +0000] "GET /health HTTP/1.1" 200 318 "-" "curl/7.88.1"

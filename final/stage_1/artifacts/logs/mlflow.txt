@@ -1,0 +1,137 @@
+failed to get console mode for stdout: The handle is invalid.
+mlflow-server  | Registry store URI not provided. Using backend store URI.
+mlflow-server  | 2026/03/19 20:56:18 INFO mlflow.store.db.utils: Creating initial MLflow database tables...
+mlflow-server  | 2026/03/19 20:56:19 INFO mlflow.store.db.utils: Updating database tables
+mlflow-server  | [MLflow] Security middleware enabled with default settings (localhost-only). To allow connections from other hosts, use --host 0.0.0.0 and configure --allowed-hosts and --cors-allowed-origins.
+mlflow-server  | INFO:     Uvicorn running on http://0.0.0.0:5000 (Press CTRL+C to quit)
+mlflow-server  | INFO:     Started parent process [25]
+mlflow-server  | 2026/03/19 20:56:22 INFO mlflow.server.jobs.utils: Starting huey consumer for job function invoke_scorer
+mlflow-server  | 2026/03/19 20:56:22 INFO mlflow.server.jobs.utils: Starting huey consumer for job function run_online_session_scorer
+mlflow-server  | 2026/03/19 20:56:22 INFO mlflow.server.jobs.utils: Starting huey consumer for job function optimize_prompts
+mlflow-server  | 2026/03/19 20:56:22 INFO mlflow.server.jobs.utils: Starting huey consumer for job function run_online_trace_scorer
+mlflow-server  | 2026/03/19 20:56:22 INFO mlflow.server.jobs.utils: Starting dedicated Huey consumer for periodic tasks
+mlflow-server  | INFO:     Started server process [28]
+mlflow-server  | INFO:     Waiting for application startup.
+mlflow-server  | INFO:     Application startup complete.
+mlflow-server  | INFO:     Started server process [30]
+mlflow-server  | INFO:     Waiting for application startup.
+mlflow-server  | INFO:     Application startup complete.
+mlflow-server  | INFO:     Started server process [29]
+mlflow-server  | INFO:     Waiting for application startup.
+mlflow-server  | INFO:     Application startup complete.
+mlflow-server  | INFO:     Started server process [31]
+mlflow-server  | INFO:     Waiting for application startup.
+mlflow-server  | INFO:     Application startup complete.
+mlflow-server  | 2026/03/19 20:56:24 INFO huey.consumer: Huey consumer started with 5 thread, PID 124 at 2026-03-19 20:56:24.510229
+mlflow-server  | [2026-03-19 20:56:24,510] INFO:huey.consumer:MainThread:Huey consumer started with 5 thread, PID 124 at 2026-03-19 20:56:24.510229
+mlflow-server  | 2026/03/19 20:56:24 INFO huey.consumer: Scheduler runs every 1 second(s).
+mlflow-server  | [2026-03-19 20:56:24,510] INFO:huey.consumer:MainThread:Scheduler runs every 1 second(s).
+mlflow-server  | 2026/03/19 20:56:24 INFO huey.consumer: Periodic tasks are enabled.
+mlflow-server  | [2026-03-19 20:56:24,510] INFO:huey.consumer:MainThread:Periodic tasks are enabled.
+mlflow-server  | 2026/03/19 20:56:24 INFO huey.consumer: The following commands are available:
+mlflow-server  | + mlflow.server.jobs.utils._exec_job
+mlflow-server  | [2026-03-19 20:56:24,511] INFO:huey.consumer:MainThread:The following commands are available:
+mlflow-server  | + mlflow.server.jobs.utils._exec_job
+mlflow-server  | 2026/03/19 20:56:24 INFO huey.consumer: Huey consumer started with 10 thread, PID 125 at 2026-03-19 20:56:24.571834
+mlflow-server  | [2026-03-19 20:56:24,571] INFO:huey.consumer:MainThread:Huey consumer started with 10 thread, PID 125 at 2026-03-19 20:56:24.571834
+mlflow-server  | 2026/03/19 20:56:24 INFO huey.consumer: Scheduler runs every 1 second(s).
+mlflow-server  | [2026-03-19 20:56:24,572] INFO:huey.consumer:MainThread:Scheduler runs every 1 second(s).
+mlflow-server  | 2026/03/19 20:56:24 INFO huey.consumer: Periodic tasks are enabled.
+mlflow-server  | [2026-03-19 20:56:24,572] INFO:huey.consumer:MainThread:Periodic tasks are enabled.
+mlflow-server  | 2026/03/19 20:56:24 INFO huey.consumer: The following commands are available:
+mlflow-server  | + mlflow.server.jobs.utils._exec_job
+mlflow-server  | [2026-03-19 20:56:24,572] INFO:huey.consumer:MainThread:The following commands are available:
+mlflow-server  | + mlflow.server.jobs.utils._exec_job
+mlflow-server  | 2026/03/19 20:56:24 INFO huey.consumer: Huey consumer started with 2 thread, PID 128 at 2026-03-19 20:56:24.588157
+mlflow-server  | [2026-03-19 20:56:24,588] INFO:huey.consumer:MainThread:Huey consumer started with 2 thread, PID 128 at 2026-03-19 20:56:24.588157
+mlflow-server  | 2026/03/19 20:56:24 INFO huey.consumer: Scheduler runs every 1 second(s).
+mlflow-server  | [2026-03-19 20:56:24,588] INFO:huey.consumer:MainThread:Scheduler runs every 1 second(s).
+mlflow-server  | 2026/03/19 20:56:24 INFO huey.consumer: Periodic tasks are enabled.
+mlflow-server  | [2026-03-19 20:56:24,588] INFO:huey.consumer:MainThread:Periodic tasks are enabled.
+mlflow-server  | 2026/03/19 20:56:24 INFO huey.consumer: The following commands are available:
+mlflow-server  | + mlflow.server.jobs.utils._exec_job
+mlflow-server  | [2026-03-19 20:56:24,589] INFO:huey.consumer:MainThread:The following commands are available:
+mlflow-server  | + mlflow.server.jobs.utils._exec_job
+mlflow-server  | 2026/03/19 20:56:24 INFO mlflow.server.jobs.utils: Registered online_scoring_scheduler periodic task (runs every 1 minute)
+mlflow-server  | 2026/03/19 20:56:24 INFO huey.consumer: Huey consumer started with 5 thread, PID 131 at 2026-03-19 20:56:24.605101
+mlflow-server  | [2026-03-19 20:56:24,605] INFO:huey.consumer:MainThread:Huey consumer started with 5 thread, PID 131 at 2026-03-19 20:56:24.605101
+mlflow-server  | 2026/03/19 20:56:24 INFO huey.consumer: Scheduler runs every 1 second(s).
+mlflow-server  | [2026-03-19 20:56:24,605] INFO:huey.consumer:MainThread:Scheduler runs every 1 second(s).
+mlflow-server  | 2026/03/19 20:56:24 INFO huey.consumer: Periodic tasks are enabled.
+mlflow-server  | [2026-03-19 20:56:24,605] INFO:huey.consumer:MainThread:Periodic tasks are enabled.
+mlflow-server  | 2026/03/19 20:56:24 INFO huey.consumer: The following commands are available:
+mlflow-server  | + mlflow.server.jobs.utils._exec_job
+mlflow-server  | + mlflow.server.jobs.utils.online_scoring_scheduler
+mlflow-server  | [2026-03-19 20:56:24,605] INFO:huey.consumer:MainThread:The following commands are available:
+mlflow-server  | + mlflow.server.jobs.utils._exec_job
+mlflow-server  | + mlflow.server.jobs.utils.online_scoring_scheduler
+mlflow-server  | 2026/03/19 20:56:24 INFO huey.consumer.Scheduler: Enqueueing periodic task mlflow.server.jobs.utils.online_scoring_scheduler: 3aba8c54-076c-4118-ae13-0cb5ec11146e.
+mlflow-server  | [2026-03-19 20:56:24,609] INFO:huey.consumer.Scheduler:Scheduler:Enqueueing periodic task mlflow.server.jobs.utils.online_scoring_scheduler: 3aba8c54-076c-4118-ae13-0cb5ec11146e.
+mlflow-server  | 2026/03/19 20:56:24 INFO huey: Executing mlflow.server.jobs.utils.online_scoring_scheduler: 3aba8c54-076c-4118-ae13-0cb5ec11146e
+mlflow-server  | [2026-03-19 20:56:24,612] INFO:huey:Worker-2:Executing mlflow.server.jobs.utils.online_scoring_scheduler: 3aba8c54-076c-4118-ae13-0cb5ec11146e
+mlflow-server  | 2026/03/19 20:56:24 INFO huey.consumer: Huey consumer started with 5 thread, PID 129 at 2026-03-19 20:56:24.618793
+mlflow-server  | [2026-03-19 20:56:24,618] INFO:huey.consumer:MainThread:Huey consumer started with 5 thread, PID 129 at 2026-03-19 20:56:24.618793
+mlflow-server  | 2026/03/19 20:56:24 INFO huey.consumer: Scheduler runs every 1 second(s).
+mlflow-server  | [2026-03-19 20:56:24,618] INFO:huey.consumer:MainThread:Scheduler runs every 1 second(s).
+mlflow-server  | 2026/03/19 20:56:24 INFO huey.consumer: Periodic tasks are enabled.
+mlflow-server  | [2026-03-19 20:56:24,619] INFO:huey.consumer:MainThread:Periodic tasks are enabled.
+mlflow-server  | 2026/03/19 20:56:24 INFO huey.consumer: The following commands are available:
+mlflow-server  | + mlflow.server.jobs.utils._exec_job
+mlflow-server  | [2026-03-19 20:56:24,619] INFO:huey.consumer:MainThread:The following commands are available:
+mlflow-server  | + mlflow.server.jobs.utils._exec_job
+mlflow-server  | 2026/03/19 20:56:25 INFO huey: mlflow.server.jobs.utils.online_scoring_scheduler: 3aba8c54-076c-4118-ae13-0cb5ec11146e executed in 0.491s
+mlflow-server  | [2026-03-19 20:56:25,103] INFO:huey:Worker-2:mlflow.server.jobs.utils.online_scoring_scheduler: 3aba8c54-076c-4118-ae13-0cb5ec11146e executed in 0.491s
+mlflow-server  | 2026/03/19 20:57:24 INFO huey.consumer.Scheduler: Enqueueing periodic task mlflow.server.jobs.utils.online_scoring_scheduler: c97c2b3d-8861-4150-9f33-4b1f6dba6404.
+mlflow-server  | [2026-03-19 20:57:24,604] INFO:huey.consumer.Scheduler:Scheduler:Enqueueing periodic task mlflow.server.jobs.utils.online_scoring_scheduler: c97c2b3d-8861-4150-9f33-4b1f6dba6404.
+mlflow-server  | 2026/03/19 20:57:31 INFO huey: Executing mlflow.server.jobs.utils.online_scoring_scheduler: c97c2b3d-8861-4150-9f33-4b1f6dba6404
+mlflow-server  | [2026-03-19 20:57:31,099] INFO:huey:Worker-4:Executing mlflow.server.jobs.utils.online_scoring_scheduler: c97c2b3d-8861-4150-9f33-4b1f6dba6404
+mlflow-server  | 2026/03/19 20:57:31 INFO huey: mlflow.server.jobs.utils.online_scoring_scheduler: c97c2b3d-8861-4150-9f33-4b1f6dba6404 executed in 0.003s
+mlflow-server  | [2026-03-19 20:57:31,102] INFO:huey:Worker-4:mlflow.server.jobs.utils.online_scoring_scheduler: c97c2b3d-8861-4150-9f33-4b1f6dba6404 executed in 0.003s
+mlflow-server  | 2026/03/19 20:58:24 INFO huey.consumer.Scheduler: Enqueueing periodic task mlflow.server.jobs.utils.online_scoring_scheduler: fa7579c8-d779-4fdf-ba52-b1d165109c0c.
+mlflow-server  | [2026-03-19 20:58:24,604] INFO:huey.consumer.Scheduler:Scheduler:Enqueueing periodic task mlflow.server.jobs.utils.online_scoring_scheduler: fa7579c8-d779-4fdf-ba52-b1d165109c0c.
+mlflow-server  | 2026/03/19 20:58:28 INFO huey: Executing mlflow.server.jobs.utils.online_scoring_scheduler: fa7579c8-d779-4fdf-ba52-b1d165109c0c
+mlflow-server  | [2026-03-19 20:58:28,822] INFO:huey:Worker-4:Executing mlflow.server.jobs.utils.online_scoring_scheduler: fa7579c8-d779-4fdf-ba52-b1d165109c0c
+mlflow-server  | 2026/03/19 20:58:28 INFO huey: mlflow.server.jobs.utils.online_scoring_scheduler: fa7579c8-d779-4fdf-ba52-b1d165109c0c executed in 0.003s
+mlflow-server  | [2026-03-19 20:58:28,825] INFO:huey:Worker-4:mlflow.server.jobs.utils.online_scoring_scheduler: fa7579c8-d779-4fdf-ba52-b1d165109c0c executed in 0.003s
+mlflow-server  | 2026/03/19 20:59:24 INFO huey.consumer.Scheduler: Enqueueing periodic task mlflow.server.jobs.utils.online_scoring_scheduler: 789ca1d1-2797-4fed-9a07-eb32bd2861e8.
+mlflow-server  | [2026-03-19 20:59:24,604] INFO:huey.consumer.Scheduler:Scheduler:Enqueueing periodic task mlflow.server.jobs.utils.online_scoring_scheduler: 789ca1d1-2797-4fed-9a07-eb32bd2861e8.
+mlflow-server  | 2026/03/19 20:59:26 INFO huey: Executing mlflow.server.jobs.utils.online_scoring_scheduler: 789ca1d1-2797-4fed-9a07-eb32bd2861e8
+mlflow-server  | [2026-03-19 20:59:26,545] INFO:huey:Worker-4:Executing mlflow.server.jobs.utils.online_scoring_scheduler: 789ca1d1-2797-4fed-9a07-eb32bd2861e8
+mlflow-server  | 2026/03/19 20:59:26 INFO huey: mlflow.server.jobs.utils.online_scoring_scheduler: 789ca1d1-2797-4fed-9a07-eb32bd2861e8 executed in 0.003s
+mlflow-server  | [2026-03-19 20:59:26,548] INFO:huey:Worker-4:mlflow.server.jobs.utils.online_scoring_scheduler: 789ca1d1-2797-4fed-9a07-eb32bd2861e8 executed in 0.003s
+mlflow-server  | 2026/03/19 21:00:24 INFO huey.consumer.Scheduler: Enqueueing periodic task mlflow.server.jobs.utils.online_scoring_scheduler: f3dd01d5-9cda-4035-962a-1f8fc09dedc5.
+mlflow-server  | [2026-03-19 21:00:24,604] INFO:huey.consumer.Scheduler:Scheduler:Enqueueing periodic task mlflow.server.jobs.utils.online_scoring_scheduler: f3dd01d5-9cda-4035-962a-1f8fc09dedc5.
+mlflow-server  | 2026/03/19 21:00:31 INFO huey: Executing mlflow.server.jobs.utils.online_scoring_scheduler: f3dd01d5-9cda-4035-962a-1f8fc09dedc5
+mlflow-server  | [2026-03-19 21:00:31,130] INFO:huey:Worker-1:Executing mlflow.server.jobs.utils.online_scoring_scheduler: f3dd01d5-9cda-4035-962a-1f8fc09dedc5
+mlflow-server  | 2026/03/19 21:00:31 INFO huey: mlflow.server.jobs.utils.online_scoring_scheduler: f3dd01d5-9cda-4035-962a-1f8fc09dedc5 executed in 0.003s
+mlflow-server  | [2026-03-19 21:00:31,133] INFO:huey:Worker-1:mlflow.server.jobs.utils.online_scoring_scheduler: f3dd01d5-9cda-4035-962a-1f8fc09dedc5 executed in 0.003s
+mlflow-server  | 2026/03/19 21:01:24 INFO huey.consumer.Scheduler: Enqueueing periodic task mlflow.server.jobs.utils.online_scoring_scheduler: 5e1e2f86-3488-4393-9a0a-a91adc973d21.
+mlflow-server  | [2026-03-19 21:01:24,604] INFO:huey.consumer.Scheduler:Scheduler:Enqueueing periodic task mlflow.server.jobs.utils.online_scoring_scheduler: 5e1e2f86-3488-4393-9a0a-a91adc973d21.
+mlflow-server  | 2026/03/19 21:01:28 INFO huey: Executing mlflow.server.jobs.utils.online_scoring_scheduler: 5e1e2f86-3488-4393-9a0a-a91adc973d21
+mlflow-server  | [2026-03-19 21:01:28,853] INFO:huey:Worker-1:Executing mlflow.server.jobs.utils.online_scoring_scheduler: 5e1e2f86-3488-4393-9a0a-a91adc973d21
+mlflow-server  | 2026/03/19 21:01:28 INFO huey: mlflow.server.jobs.utils.online_scoring_scheduler: 5e1e2f86-3488-4393-9a0a-a91adc973d21 executed in 0.003s
+mlflow-server  | [2026-03-19 21:01:28,856] INFO:huey:Worker-1:mlflow.server.jobs.utils.online_scoring_scheduler: 5e1e2f86-3488-4393-9a0a-a91adc973d21 executed in 0.003s
+mlflow-server  | 2026/03/19 21:02:24 INFO huey.consumer.Scheduler: Enqueueing periodic task mlflow.server.jobs.utils.online_scoring_scheduler: a5ac7ffc-1f18-407c-a26e-0a7bc235c161.
+mlflow-server  | [2026-03-19 21:02:24,603] INFO:huey.consumer.Scheduler:Scheduler:Enqueueing periodic task mlflow.server.jobs.utils.online_scoring_scheduler: a5ac7ffc-1f18-407c-a26e-0a7bc235c161.
+mlflow-server  | 2026/03/19 21:02:26 INFO huey: Executing mlflow.server.jobs.utils.online_scoring_scheduler: a5ac7ffc-1f18-407c-a26e-0a7bc235c161
+mlflow-server  | [2026-03-19 21:02:26,577] INFO:huey:Worker-1:Executing mlflow.server.jobs.utils.online_scoring_scheduler: a5ac7ffc-1f18-407c-a26e-0a7bc235c161
+mlflow-server  | 2026/03/19 21:02:26 INFO huey: mlflow.server.jobs.utils.online_scoring_scheduler: a5ac7ffc-1f18-407c-a26e-0a7bc235c161 executed in 0.017s
+mlflow-server  | [2026-03-19 21:02:26,595] INFO:huey:Worker-1:mlflow.server.jobs.utils.online_scoring_scheduler: a5ac7ffc-1f18-407c-a26e-0a7bc235c161 executed in 0.017s
+mlflow-server  | 2026/03/19 21:03:24 INFO huey.consumer.Scheduler: Enqueueing periodic task mlflow.server.jobs.utils.online_scoring_scheduler: c41388fa-ea46-4b5e-ae6f-309358a8ff66.
+mlflow-server  | [2026-03-19 21:03:24,603] INFO:huey.consumer.Scheduler:Scheduler:Enqueueing periodic task mlflow.server.jobs.utils.online_scoring_scheduler: c41388fa-ea46-4b5e-ae6f-309358a8ff66.
+mlflow-server  | 2026/03/19 21:03:31 INFO huey: Executing mlflow.server.jobs.utils.online_scoring_scheduler: c41388fa-ea46-4b5e-ae6f-309358a8ff66
+mlflow-server  | [2026-03-19 21:03:31,136] INFO:huey:Worker-3:Executing mlflow.server.jobs.utils.online_scoring_scheduler: c41388fa-ea46-4b5e-ae6f-309358a8ff66
+mlflow-server  | 2026/03/19 21:03:31 INFO huey: mlflow.server.jobs.utils.online_scoring_scheduler: c41388fa-ea46-4b5e-ae6f-309358a8ff66 executed in 0.013s
+mlflow-server  | [2026-03-19 21:03:31,149] INFO:huey:Worker-3:mlflow.server.jobs.utils.online_scoring_scheduler: c41388fa-ea46-4b5e-ae6f-309358a8ff66 executed in 0.013s
+mlflow-server  | 2026/03/19 21:04:24 INFO huey.consumer.Scheduler: Enqueueing periodic task mlflow.server.jobs.utils.online_scoring_scheduler: 29f7f714-0f78-4b1e-a9fe-7d00c5189f6d.
+mlflow-server  | [2026-03-19 21:04:24,603] INFO:huey.consumer.Scheduler:Scheduler:Enqueueing periodic task mlflow.server.jobs.utils.online_scoring_scheduler: 29f7f714-0f78-4b1e-a9fe-7d00c5189f6d.
+mlflow-server  | 2026/03/19 21:04:28 INFO huey: Executing mlflow.server.jobs.utils.online_scoring_scheduler: 29f7f714-0f78-4b1e-a9fe-7d00c5189f6d
+mlflow-server  | [2026-03-19 21:04:28,868] INFO:huey:Worker-3:Executing mlflow.server.jobs.utils.online_scoring_scheduler: 29f7f714-0f78-4b1e-a9fe-7d00c5189f6d
+mlflow-server  | 2026/03/19 21:04:28 INFO huey: mlflow.server.jobs.utils.online_scoring_scheduler: 29f7f714-0f78-4b1e-a9fe-7d00c5189f6d executed in 0.003s
+mlflow-server  | [2026-03-19 21:04:28,871] INFO:huey:Worker-3:mlflow.server.jobs.utils.online_scoring_scheduler: 29f7f714-0f78-4b1e-a9fe-7d00c5189f6d executed in 0.003s
+mlflow-server  | 2026/03/19 21:05:24 INFO huey.consumer.Scheduler: Enqueueing periodic task mlflow.server.jobs.utils.online_scoring_scheduler: 5557702e-522b-4b18-893c-7fea7fb26f37.
+mlflow-server  | [2026-03-19 21:05:24,603] INFO:huey.consumer.Scheduler:Scheduler:Enqueueing periodic task mlflow.server.jobs.utils.online_scoring_scheduler: 5557702e-522b-4b18-893c-7fea7fb26f37.
+mlflow-server  | 2026/03/19 21:05:26 INFO huey: Executing mlflow.server.jobs.utils.online_scoring_scheduler: 5557702e-522b-4b18-893c-7fea7fb26f37
+mlflow-server  | [2026-03-19 21:05:26,589] INFO:huey:Worker-3:Executing mlflow.server.jobs.utils.online_scoring_scheduler: 5557702e-522b-4b18-893c-7fea7fb26f37
+mlflow-server  | 2026/03/19 21:05:26 INFO huey: mlflow.server.jobs.utils.online_scoring_scheduler: 5557702e-522b-4b18-893c-7fea7fb26f37 executed in 0.003s
+mlflow-server  | [2026-03-19 21:05:26,592] INFO:huey:Worker-3:mlflow.server.jobs.utils.online_scoring_scheduler: 5557702e-522b-4b18-893c-7fea7fb26f37 executed in 0.003s
