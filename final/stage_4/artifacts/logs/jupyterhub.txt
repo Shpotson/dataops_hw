@@ -1,0 +1,231 @@
+failed to get console mode for stdout: The handle is invalid.
+jupyterhub  | [I 2026-03-20 17:29:52.229 JupyterHub app:3364] Running JupyterHub version 5.4.3
+jupyterhub  | [I 2026-03-20 17:29:52.229 JupyterHub app:3394] Using Authenticator: builtins.SimpleAdminAuthenticator
+jupyterhub  | [I 2026-03-20 17:29:52.229 JupyterHub app:3394] Using Spawner: jupyterhub.spawner.LocalProcessSpawner-5.4.3
+jupyterhub  | [I 2026-03-20 17:29:52.229 JupyterHub app:3394] Using Proxy: jupyterhub.proxy.ConfigurableHTTPProxy-5.4.3
+jupyterhub  | /usr/local/lib/python3.14/site-packages/jupyter_events/schema.py:68: JupyterEventsVersionWarning: The `version` property of an event schema must be a string. It has been type coerced, but in a future version of this library, it will fail to validate. Please update schema: https://schema.jupyter.org/jupyterhub/events/server-action
+jupyterhub  |   validate_schema(_schema)
+jupyterhub  | [I 2026-03-20 17:29:52.232 JupyterHub app:1835] Loading cookie_secret from /srv/jupyterhub/data/jupyterhub-cookie-secret
+jupyterhub  | [I 2026-03-20 17:29:52.251 alembic.runtime.migration migration:210] Context impl SQLiteImpl.
+jupyterhub  | [I 2026-03-20 17:29:52.251 alembic.runtime.migration migration:213] Will assume non-transactional DDL.
+jupyterhub  | [I 2026-03-20 17:29:52.285 alembic.runtime.migration migration:621] Running stamp_revision  -> 4621fec11365
+jupyterhub  | [I 2026-03-20 17:29:52.859 JupyterHub proxy:556] Generating new CONFIGPROXY_AUTH_TOKEN
+jupyterhub  | [I 2026-03-20 17:29:52.895 JupyterHub roles:281] Adding role admin for User: admin
+jupyterhub  | [I 2026-03-20 17:29:52.923 JupyterHub roles:281] Adding role user for User: admin
+jupyterhub  | [I 2026-03-20 17:29:52.981 JupyterHub app:3434] Initialized 0 spawners in 0.005 seconds
+jupyterhub  | [I 2026-03-20 17:29:52.984 JupyterHub metrics:425] Found 0 active users in the last ActiveUserPeriods.twenty_four_hours
+jupyterhub  | [I 2026-03-20 17:29:52.985 JupyterHub metrics:425] Found 0 active users in the last ActiveUserPeriods.seven_days
+jupyterhub  | [I 2026-03-20 17:29:52.985 JupyterHub metrics:425] Found 0 active users in the last ActiveUserPeriods.thirty_days
+jupyterhub  | [W 2026-03-20 17:29:52.986 JupyterHub proxy:748] Running JupyterHub without SSL.  I hope there is SSL termination happening somewhere else...
+jupyterhub  | [I 2026-03-20 17:29:52.986 JupyterHub proxy:752] Starting proxy @ http://:8000
+jupyterhub  | [I 2026-03-20 17:29:53,104 configurable_http_proxy] Proxying http://*:8000 to (no default)
+jupyterhub  | [I 2026-03-20 17:29:53,104 configurable_http_proxy] Proxy API at http://127.0.0.1:8001/api/routes
+jupyterhub  | [I 2026-03-20 17:29:53,211 configurable_http_proxy] 200 GET /api/routes 
+jupyterhub  | [I 2026-03-20 17:29:53.211 JupyterHub app:3757] Hub API listening on http://127.0.0.1:8081/hub/
+jupyterhub  | [I 2026-03-20 17:29:53,213 configurable_http_proxy] 200 GET /api/routes 
+jupyterhub  | [I 2026-03-20 17:29:53.213 JupyterHub proxy:477] Adding route for Hub: / => http://127.0.0.1:8081
+jupyterhub  | [I 2026-03-20 17:29:53,214 configurable_http_proxy] Adding route / -> http://127.0.0.1:8081
+jupyterhub  | [I 2026-03-20 17:29:53,214 configurable_http_proxy] Route added / -> http://127.0.0.1:8081
+jupyterhub  | [I 2026-03-20 17:29:53,214 configurable_http_proxy] 201 POST /api/routes/ 
+jupyterhub  | [I 2026-03-20 17:29:53.214 JupyterHub app:3788] JupyterHub is now running at http://:8000
+jupyterhub  | [I 2026-03-20 17:34:53,216 configurable_http_proxy] 200 GET /api/routes 
+jupyterhub  | [W 2026-03-20 17:35:55.157 JupyterHub base:489] Invalid cookie token
+jupyterhub  | [I 2026-03-20 17:35:55.158 JupyterHub log:192] 302 GET /hub/spawn-pending/admin -> /hub/login?next=%2Fhub%2Fspawn-pending%2Fadmin (@192.168.240.1) 3.38ms
+jupyterhub  | [I 2026-03-20 17:35:55.172 JupyterHub _xsrf_utils:130] Setting new xsrf cookie for b'd47733c8f7e24e02ac68d19a42a64621:sKDN5Laz-rREcsqGyHk4UttDJeGVV_q2rq5wGzdUlLc=' {'path': '/hub/', 'max_age': 3600}
+jupyterhub  | [I 2026-03-20 17:35:55.172 JupyterHub _xsrf_utils:130] Setting new xsrf cookie for b'd47733c8f7e24e02ac68d19a42a64621:sKDN5Laz-rREcsqGyHk4UttDJeGVV_q2rq5wGzdUlLc=' {'path': '/hub/', 'max_age': 3600}
+jupyterhub  | [I 2026-03-20 17:35:55.198 JupyterHub log:192] 200 GET /hub/login?next=%2Fhub%2Fspawn-pending%2Fadmin (@192.168.240.1) 27.48ms
+jupyterhub  | [I 2026-03-20 17:36:08.419 JupyterHub _xsrf_utils:130] Setting new xsrf cookie for b'd47733c8f7e24e02ac68d19a42a64621:6e18978248a64c5c8dcd93ed113a3987' {'path': '/hub/'}
+jupyterhub  | [I 2026-03-20 17:36:08.419 JupyterHub base:973] User logged in: admin
+jupyterhub  | [I 2026-03-20 17:36:08.420 JupyterHub log:192] 302 POST /hub/login?next=%2Fhub%2Fspawn-pending%2Fadmin -> /hub/spawn-pending/admin (admin@192.168.240.1) 26.33ms
+jupyterhub  | [I 2026-03-20 17:36:08.468 JupyterHub log:192] 200 GET /hub/spawn-pending/admin (admin@192.168.240.1) 33.18ms
+jupyterhub  | [I 2026-03-20 17:36:10.258 JupyterHub provider:661] Creating oauth client jupyterhub-user-admin
+jupyterhub  | [E 2026-03-20 17:36:10.326 JupyterHub user:1004] Unhandled error starting admin's server: "getpwnam(): name not found: 'admin'"
+jupyterhub  |     Traceback (most recent call last):
+jupyterhub  |       File "/usr/local/lib/python3.14/site-packages/jupyterhub/user.py", line 920, in spawn
+jupyterhub  |         await asyncio.wait_for(f, timeout=spawner.start_timeout)
+jupyterhub  |       File "/usr/local/lib/python3.14/asyncio/tasks.py", line 488, in wait_for
+jupyterhub  |         return await fut
+jupyterhub  |                ^^^^^^^^^
+jupyterhub  |       File "/usr/local/lib/python3.14/site-packages/jupyterhub/spawner.py", line 2058, in start
+jupyterhub  |         env = self.get_env()
+jupyterhub  |       File "/usr/local/lib/python3.14/site-packages/jupyterhub/spawner.py", line 2005, in get_env
+jupyterhub  |         env = self.user_env(env)
+jupyterhub  |       File "/usr/local/lib/python3.14/site-packages/jupyterhub/spawner.py", line 1992, in user_env
+jupyterhub  |         home = pwd.getpwnam(self.user.name).pw_dir
+jupyterhub  |                ~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+jupyterhub  |     KeyError: "getpwnam(): name not found: 'admin'"
+jupyterhub  |     
+jupyterhub  | [E 2026-03-20 17:36:10.411 JupyterHub pages:364] Error starting server admin: "getpwnam(): name not found: 'admin'"
+jupyterhub  |     Traceback (most recent call last):
+jupyterhub  |     NoneType: None
+jupyterhub  |     
+jupyterhub  | [W 2026-03-20 17:36:10.411 JupyterHub web:1964] 500 GET /hub/spawn/admin (192.168.240.1): Unhandled error starting server admin
+jupyterhub  | [E 2026-03-20 17:36:10.429 JupyterHub log:184] {
+jupyterhub  |       "Host": "localhost:8000",
+jupyterhub  |       "Connection": "keep-alive",
+jupyterhub  |       "Sec-Ch-Ua": "\"Not(A:Brand\";v=\"8\", \"Chromium\";v=\"144\", \"Opera\";v=\"128\"",
+jupyterhub  |       "Sec-Ch-Ua-Mobile": "?0",
+jupyterhub  |       "Sec-Ch-Ua-Platform": "\"Windows\"",
+jupyterhub  |       "Upgrade-Insecure-Requests": "1",
+jupyterhub  |       "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 OPR/128.0.0.0",
+jupyterhub  |       "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
+jupyterhub  |       "Sec-Fetch-Site": "same-origin",
+jupyterhub  |       "Sec-Fetch-Mode": "navigate",
+jupyterhub  |       "Sec-Fetch-User": "?1",
+jupyterhub  |       "Sec-Fetch-Dest": "document",
+jupyterhub  |       "Referer": "http://localhost:8000/hub/spawn-pending/admin",
+jupyterhub  |       "Accept-Encoding": "gzip",
+jupyterhub  |       "Accept-Language": "ru,en-US;q=0.9,en;q=0.8,fi;q=0.7,cs;q=0.6",
+jupyterhub  |       "Cookie": "jupyterhub-hub-login=[secret]; _xsrf=[secret]; session=[secret]; token=[secret]; internal_auth_session=[secret]; jupyterhub-session-id=[secret]",
+jupyterhub  |       "X-Forwarded-For": ",192.168.240.1",
+jupyterhub  |       "X-Forwarded-Port": ",80",
+jupyterhub  |       "X-Forwarded-Proto": ",http",
+jupyterhub  |       "X-Forwarded-Host": "",
+jupyterhub  |       "Content-Length": "0"
+jupyterhub  |     }
+jupyterhub  | [E 2026-03-20 17:36:10.429 JupyterHub log:192] 500 GET /hub/spawn/admin (admin@192.168.240.1) 231.70ms
+jupyterhub  | [E 2026-03-20 17:36:10,429 tornado.access] 500 GET /hub/spawn/admin (192.168.240.1) 233.06ms
+jupyterhub  | [I 2026-03-20 17:39:53,216 configurable_http_proxy] 200 GET /api/routes 
+jupyterhub  | [I 2026-03-20 17:44:53,222 configurable_http_proxy] 200 GET /api/routes 
+jupyterhub  | [I 2026-03-20 17:49:53,216 configurable_http_proxy] 200 GET /api/routes 
+jupyterhub  | [I 2026-03-20 17:54:53,222 configurable_http_proxy] 200 GET /api/routes 
+jupyterhub  | [I 2026-03-20 17:59:53,224 configurable_http_proxy] 200 GET /api/routes 
+jupyterhub  | [I 2026-03-20 18:04:53,212 configurable_http_proxy] 200 GET /api/routes 
+jupyterhub  | [I 2026-03-20 18:09:53,221 configurable_http_proxy] 200 GET /api/routes 
+jupyterhub  | [I 2026-03-20 18:13:40.894 JupyterHub log:192] 200 GET /hub/home (admin@192.168.240.1) 35.37ms
+jupyterhub  | [I 2026-03-20 18:13:42.060 JupyterHub provider:661] Creating oauth client jupyterhub-user-admin
+jupyterhub  | [I 2026-03-20 18:13:42.138 JupyterHub spawner:2068] Spawning jupyterhub-singleuser
+jupyterhub  | [I 2026-03-20 18:13:43.016 JupyterHub log:192] 302 GET /hub/spawn/admin -> /hub/spawn-pending/admin (admin@192.168.240.1) 1005.01ms
+jupyterhub  | [I 2026-03-20 18:13:43.031 JupyterHub pages:454] admin is pending spawn
+jupyterhub  | [I 2026-03-20 18:13:43.034 JupyterHub log:192] 200 GET /hub/spawn-pending/admin (admin@192.168.240.1) 7.98ms
+jupyterhub  | [I 2026-03-20 18:13:44.051 ServerApp] Extension package jupyterlab took 0.1656s to import
+jupyterhub  | [I 2026-03-20 18:13:44.101 ServerApp] jupyter_lsp | extension was successfully linked.
+jupyterhub  | [I 2026-03-20 18:13:44.103 ServerApp] jupyter_server_terminals | extension was successfully linked.
+jupyterhub  | [I 2026-03-20 18:13:44.104 JupyterHubSingleUser] Starting jupyterhub single-user server extension version 5.4.3
+jupyterhub  | [I 2026-03-20 18:13:44.104 JupyterHubSingleUser] Using default url from environment $JUPYTERHUB_DEFAULT_URL: /lab
+jupyterhub  | [I 2026-03-20 18:13:44.106 ServerApp] jupyterhub | extension was successfully linked.
+jupyterhub  | [W 2026-03-20 18:13:44.107 LabApp] 'extra_template_paths' was found in both NotebookApp and ServerApp. This is likely a recent change. This config will only be set in NotebookApp. Please check if you should also config these traits in ServerApp for your purpose.
+jupyterhub  | [I 2026-03-20 18:13:44.109 ServerApp] jupyterlab | extension was successfully linked.
+jupyterhub  | [I 2026-03-20 18:13:44.110 ServerApp] Writing Jupyter server cookie secret to /home/admin/.local/share/jupyter/runtime/jupyter_cookie_secret
+jupyterhub  | [I 2026-03-20 18:13:44.369 ServerApp] notebook_shim | extension was successfully linked.
+jupyterhub  | [I 2026-03-20 18:13:44.382 ServerApp] notebook_shim | extension was successfully loaded.
+jupyterhub  | [I 2026-03-20 18:13:44.384 ServerApp] jupyter_lsp | extension was successfully loaded.
+jupyterhub  | [I 2026-03-20 18:13:44.385 ServerApp] jupyter_server_terminals | extension was successfully loaded.
+jupyterhub  | [I 2026-03-20 18:13:44.390 JupyterHub log:192] 200 GET /hub/api (@127.0.0.1) 0.46ms
+jupyterhub  | [I 2026-03-20 18:13:44.391 JupyterHubSingleUser] Updating Hub with activity every 300 seconds
+jupyterhub  | [I 2026-03-20 18:13:44.391 ServerApp] jupyterhub | extension was successfully loaded.
+jupyterhub  | [I 2026-03-20 18:13:44.395 LabApp] JupyterLab extension loaded from /usr/local/lib/python3.14/site-packages/jupyterlab
+jupyterhub  | [I 2026-03-20 18:13:44.395 LabApp] JupyterLab application directory is /usr/local/share/jupyter/lab
+jupyterhub  | [I 2026-03-20 18:13:44.396 LabApp] Extension Manager is 'pypi'.
+jupyterhub  | [I 2026-03-20 18:13:44.423 ServerApp] Skipped non-installed server(s): basedpyright, bash-language-server, dockerfile-language-server-nodejs, javascript-typescript-langserver, jedi-language-server, julia-language-server, pyrefly, pyright, python-language-server, python-lsp-server, r-languageserver, sql-language-server, texlab, typescript-language-server, unified-language-server, vscode-css-languageserver-bin, vscode-html-languageserver-bin, vscode-json-languageserver-bin, yaml-language-server
+jupyterhub  | [I 2026-03-20 18:13:44.474 ServerApp] jupyterlab | extension was successfully loaded.
+jupyterhub  | [I 2026-03-20 18:13:44.475 ServerApp] Serving notebooks from local directory: /home/admin
+jupyterhub  | [I 2026-03-20 18:13:44.475 ServerApp] Jupyter Server 2.17.0 is running at:
+jupyterhub  | [I 2026-03-20 18:13:44.475 ServerApp] http://127.0.0.1:37779/user/admin/lab?token=...
+jupyterhub  | [I 2026-03-20 18:13:44.475 ServerApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+jupyterhub  | [I 2026-03-20 18:13:44.530 JupyterHub log:192] 200 POST /hub/api/users/admin/activity (admin@127.0.0.1) 47.62ms
+jupyterhub  | [I 2026-03-20 18:13:45.660 ServerApp] 200 GET /user/admin/api (@127.0.0.1) 0.77ms
+jupyterhub  | [I 2026-03-20 18:13:45.661 JupyterHub base:1126] User admin took 3.646 seconds to start
+jupyterhub  | [I 2026-03-20 18:13:45.661 JupyterHub proxy:331] Adding user admin to proxy /user/admin/ => http://127.0.0.1:37779
+jupyterhub  | [I 2026-03-20 18:13:45,662 configurable_http_proxy] Adding route /user/admin -> http://127.0.0.1:37779
+jupyterhub  | [I 2026-03-20 18:13:45,662 configurable_http_proxy] Route added /user/admin -> http://127.0.0.1:37779
+jupyterhub  | [I 2026-03-20 18:13:45,662 configurable_http_proxy] 201 POST /api/routes/user/admin 
+jupyterhub  | [I 2026-03-20 18:13:45.663 JupyterHub users:899] Server admin is ready
+jupyterhub  | [I 2026-03-20 18:13:45.663 JupyterHub log:192] 200 GET /hub/api/users/admin/server/progress?_xsrf=[secret] (admin@192.168.240.1) 2540.86ms
+jupyterhub  | [I 2026-03-20 18:13:45.687 JupyterHub log:192] 302 GET /hub/spawn-pending/admin -> /user/admin/ (admin@192.168.240.1) 3.21ms
+jupyterhub  | [I 2026-03-20 18:13:45.698 ServerApp] 302 GET /user/admin/ -> /user/admin/lab? (@192.168.240.1) 0.44ms
+jupyterhub  | [I 2026-03-20 18:13:45.724 ServerApp] 302 GET /user/admin/lab -> /hub/api/oauth2/authorize?client_id=jupyterhub-user-admin&redirect_uri=%2Fuser%2Fadmin%2Foauth_callback&response_type=code&state=[secret] (@192.168.240.1) 1.39ms
+jupyterhub  | [I 2026-03-20 18:13:45.775 JupyterHub log:192] 302 GET /hub/api/oauth2/authorize?client_id=jupyterhub-user-admin&redirect_uri=%2Fuser%2Fadmin%2Foauth_callback&response_type=code&state=[secret] -> /user/admin/oauth_callback?code=[secret]&state=[secret] (admin@192.168.240.1) 31.95ms
+jupyterhub  | [I 2026-03-20 18:13:45.847 JupyterHub log:192] 200 POST /hub/api/oauth2/token (admin@127.0.0.1) 59.72ms
+jupyterhub  | [I 2026-03-20 18:13:45.876 JupyterHub log:192] 200 GET /hub/api/user (admin@127.0.0.1) 28.31ms
+jupyterhub  | [I 2026-03-20 18:13:45.877 ServerApp] Logged-in user admin
+jupyterhub  | [I 2026-03-20 18:13:45.877 ServerApp] Setting new xsrf cookie for b'd47733c8f7e24e02ac68d19a42a64621:8d4f484b836485e6230a6d68c954a98e8ebf07a66462144cc5861a2000298fa4' {'path': '/user/admin/'}
+jupyterhub  | [I 2026-03-20 18:13:45.878 ServerApp] 302 GET /user/admin/oauth_callback?code=[secret]&state=[secret] -> /user/admin/lab (admin@192.168.240.1) 91.80ms
+jupyterhub  | [I 2026-03-20 18:13:45.894 ServerApp] 200 GET /user/admin/lab (admin@192.168.240.1) 6.15ms
+jupyterhub  | [I 2026-03-20 18:13:46.527 ServerApp] 200 GET /user/admin/api/me?1774030426520 (admin@192.168.240.1) 0.76ms
+jupyterhub  | [I 2026-03-20 18:13:46.539 ServerApp] 200 GET /user/admin/api/kernelspecs?1774030426518 (admin@192.168.240.1) 10.71ms
+jupyterhub  | [I 2026-03-20 18:13:46.594 ServerApp] 200 GET /user/admin/lab/api/settings?1774030426529 (admin@192.168.240.1) 55.08ms
+jupyterhub  | [W 2026-03-20 18:13:46.598 ServerApp] Skipping XSRF check for insecure request GET /user/admin/api/events/subscribe
+jupyterhub  | [I 2026-03-20 18:13:46.598 ServerApp] 101 GET /user/admin/api/events/subscribe (admin@192.168.240.1) 2.92ms
+jupyterhub  | [I 2026-03-20 18:13:46.599 ServerApp] 200 GET /user/admin/api/kernels?1774030426533 (admin@192.168.240.1) 3.18ms
+jupyterhub  | [I 2026-03-20 18:13:46.600 ServerApp] 200 GET /user/admin/api/terminals?1774030426534 (admin@192.168.240.1) 3.40ms
+jupyterhub  | [I 2026-03-20 18:13:46.601 ServerApp] 200 GET /user/admin/api/sessions?1774030426534 (admin@192.168.240.1) 4.03ms
+jupyterhub  | [I 2026-03-20 18:13:46.602 ServerApp] 200 GET /user/admin/lab/api/workspaces?1774030426535 (admin@192.168.240.1) 4.69ms
+jupyterhub  | [I 2026-03-20 18:13:46.611 ServerApp] 200 GET /user/admin/api/me?1774030426539 (admin@192.168.240.1) 0.86ms
+jupyterhub  | [I 2026-03-20 18:13:46.613 ServerApp] 200 GET /user/admin/api/kernelspecs?1774030426547 (admin@192.168.240.1) 1.29ms
+jupyterhub  | [I 2026-03-20 18:13:46.719 ServerApp] 200 GET /user/admin/lab/api/translations/default?1774030426698 (admin@192.168.240.1) 15.54ms
+jupyterhub  | [I 2026-03-20 18:13:46.735 ServerApp] 200 GET /user/admin/api/config/jupyterlabapputilsextensionannouncements?1774030426728 (admin@192.168.240.1) 1.68ms
+jupyterhub  | [I 2026-03-20 18:13:46.764 ServerApp] 200 GET /user/admin/lsp/status?1774030426753 (admin@192.168.240.1) 3.42ms
+jupyterhub  | [I 2026-03-20 18:13:46.811 ServerApp] 200 GET /user/admin/lab/api/settings/%40jupyterlab/codemirror-extension%3Aplugin?1774030426798 (admin@192.168.240.1) 8.22ms
+jupyterhub  | [I 2026-03-20 18:13:46.812 ServerApp] 200 GET /user/admin/lab/api/translations?1774030426787 (admin@192.168.240.1) 20.39ms
+jupyterhub  | [W 2026-03-20 18:13:46.816 LabApp] Could not determine jupyterlab build status without nodejs
+jupyterhub  | [I 2026-03-20 18:13:46.817 ServerApp] 200 GET /user/admin/lab/api/build?1774030426810 (admin@192.168.240.1) 1.71ms
+jupyterhub  | [I 2026-03-20 18:13:46.872 ServerApp] 200 GET /user/admin/api/contents?content=1&hash=0&1774030426861 (admin@192.168.240.1) 6.31ms
+jupyterhub  | [I 2026-03-20 18:13:46.921 ServerApp] 200 GET /user/admin/lab/api/settings/%40jupyterlab/docmanager-extension%3Aplugin?1774030426912 (admin@192.168.240.1) 3.65ms
+jupyterhub  | [I 2026-03-20 18:13:46.927 ServerApp] 200 GET /user/admin/lab/api/settings/%40jupyterlab/notebook-extension%3Apanel?1774030426915 (admin@192.168.240.1) 3.47ms
+jupyterhub  | [I 2026-03-20 18:13:46.990 ServerApp] 200 GET /user/admin/lab/api/workspaces/default?1774030426985 (admin@192.168.240.1) 0.85ms
+jupyterhub  | [I 2026-03-20 18:13:47.082 ServerApp] 200 GET /user/admin/lab/api/settings?ids_only=true&1774030427072 (admin@192.168.240.1) 3.83ms
+jupyterhub  | [I 2026-03-20 18:13:48.134 ServerApp] 204 PUT /user/admin/lab/api/workspaces/default?1774030428077 (admin@192.168.240.1) 3.51ms
+jupyterhub  | [I 2026-03-20 18:13:48.150 ServerApp] 200 GET /user/admin/api/contents?content=1&hash=0&1774030428142 (admin@192.168.240.1) 3.25ms
+jupyterhub  | [I 2026-03-20 18:13:48.736 ServerApp] 204 PUT /user/admin/lab/api/workspaces/default?1774030428678 (admin@192.168.240.1) 5.67ms
+jupyterhub  | [I 2026-03-20 18:13:56.621 ServerApp] 200 GET /user/admin/lab/api/workspaces?1774030436613 (admin@192.168.240.1) 0.92ms
+jupyterhub  | [I 2026-03-20 18:13:56.623 ServerApp] 200 GET /user/admin/api/sessions?1774030436613 (admin@192.168.240.1) 0.95ms
+jupyterhub  | [I 2026-03-20 18:13:56.623 ServerApp] 200 GET /user/admin/api/terminals?1774030436613 (admin@192.168.240.1) 1.43ms
+jupyterhub  | [I 2026-03-20 18:13:56.624 ServerApp] 200 GET /user/admin/api/kernels?1774030436612 (admin@192.168.240.1) 1.27ms
+jupyterhub  | [I 2026-03-20 18:13:58.164 ServerApp] 200 GET /user/admin/api/contents?content=1&hash=0&1774030438157 (admin@192.168.240.1) 3.21ms
+jupyterhub  | [I 2026-03-20 18:13:58.745 ServerApp] 204 PUT /user/admin/lab/api/workspaces/default?1774030438681 (admin@192.168.240.1) 0.94ms
+jupyterhub  | [I 2026-03-20 18:14:06.647 ServerApp] 200 GET /user/admin/api/kernels?1774030446637 (admin@192.168.240.1) 0.70ms
+jupyterhub  | [I 2026-03-20 18:14:06.648 ServerApp] 200 GET /user/admin/api/sessions?1774030446636 (admin@192.168.240.1) 1.07ms
+jupyterhub  | [I 2026-03-20 18:14:06.649 ServerApp] 200 GET /user/admin/lab/api/workspaces?1774030446636 (admin@192.168.240.1) 1.57ms
+jupyterhub  | [I 2026-03-20 18:14:06.650 ServerApp] 200 GET /user/admin/api/terminals?1774030446636 (admin@192.168.240.1) 1.89ms
+jupyterhub  | [I 2026-03-20 18:14:08.182 ServerApp] 200 GET /user/admin/api/contents?content=1&hash=0&1774030448175 (admin@192.168.240.1) 3.06ms
+jupyterhub  | [I 2026-03-20 18:14:08.765 ServerApp] 204 PUT /user/admin/lab/api/workspaces/default?1774030448703 (admin@192.168.240.1) 5.19ms
+jupyterhub  | [I 2026-03-20 18:14:16.686 ServerApp] 200 GET /user/admin/api/kernels?1774030456668 (admin@192.168.240.1) 0.69ms
+jupyterhub  | [I 2026-03-20 18:14:16.688 ServerApp] 200 GET /user/admin/api/terminals?1774030456669 (admin@192.168.240.1) 1.26ms
+jupyterhub  | [I 2026-03-20 18:14:16.688 ServerApp] 200 GET /user/admin/api/sessions?1774030456668 (admin@192.168.240.1) 1.43ms
+jupyterhub  | [I 2026-03-20 18:14:16.689 ServerApp] 200 GET /user/admin/lab/api/workspaces?1774030456669 (admin@192.168.240.1) 1.86ms
+jupyterhub  | [I 2026-03-20 18:14:18.229 ServerApp] 200 GET /user/admin/api/contents?content=1&hash=0&1774030458194 (admin@192.168.240.1) 13.43ms
+jupyterhub  | [I 2026-03-20 18:14:18.786 ServerApp] 204 PUT /user/admin/lab/api/workspaces/default?1774030458737 (admin@192.168.240.1) 0.95ms
+jupyterhub  | [I 2026-03-20 18:14:26.714 ServerApp] 200 GET /user/admin/api/sessions?1774030466703 (admin@192.168.240.1) 0.71ms
+jupyterhub  | [I 2026-03-20 18:14:26.715 ServerApp] 200 GET /user/admin/api/terminals?1774030466702 (admin@192.168.240.1) 0.52ms
+jupyterhub  | [I 2026-03-20 18:14:26.716 ServerApp] 200 GET /user/admin/api/kernels?1774030466701 (admin@192.168.240.1) 0.68ms
+jupyterhub  | [I 2026-03-20 18:14:26.718 ServerApp] 200 GET /user/admin/lab/api/workspaces?1774030466704 (admin@192.168.240.1) 0.94ms
+jupyterhub  | [I 2026-03-20 18:14:28.250 ServerApp] 200 GET /user/admin/api/contents?content=1&hash=0&1774030468242 (admin@192.168.240.1) 2.92ms
+jupyterhub  | [I 2026-03-20 18:14:28.829 ServerApp] 204 PUT /user/admin/lab/api/workspaces/default?1774030468772 (admin@192.168.240.1) 0.91ms
+jupyterhub  | [I 2026-03-20 18:14:36.742 ServerApp] 200 GET /user/admin/api/kernels?1774030476733 (admin@192.168.240.1) 0.73ms
+jupyterhub  | [I 2026-03-20 18:14:36.743 ServerApp] 200 GET /user/admin/lab/api/workspaces?1774030476733 (admin@192.168.240.1) 0.94ms
+jupyterhub  | [I 2026-03-20 18:14:36.744 ServerApp] 200 GET /user/admin/api/sessions?1774030476733 (admin@192.168.240.1) 0.71ms
+jupyterhub  | [I 2026-03-20 18:14:36.748 ServerApp] 200 GET /user/admin/api/terminals?1774030476732 (admin@192.168.240.1) 0.88ms
+jupyterhub  | [I 2026-03-20 18:14:38.280 ServerApp] 200 GET /user/admin/api/contents?content=1&hash=0&1774030478272 (admin@192.168.240.1) 2.95ms
+jupyterhub  | [I 2026-03-20 18:14:38.865 ServerApp] 204 PUT /user/admin/lab/api/workspaces/default?1774030478801 (admin@192.168.240.1) 0.95ms
+jupyterhub  | [I 2026-03-20 18:14:46.770 ServerApp] 200 GET /user/admin/api/kernels?1774030486761 (admin@192.168.240.1) 0.76ms
+jupyterhub  | [I 2026-03-20 18:14:46.772 ServerApp] 200 GET /user/admin/api/sessions?1774030486762 (admin@192.168.240.1) 1.41ms
+jupyterhub  | [I 2026-03-20 18:14:46.772 ServerApp] 200 GET /user/admin/api/terminals?1774030486762 (admin@192.168.240.1) 1.59ms
+jupyterhub  | [I 2026-03-20 18:14:46.773 ServerApp] 200 GET /user/admin/lab/api/workspaces?1774030486761 (admin@192.168.240.1) 2.14ms
+jupyterhub  | [I 2026-03-20 18:14:47.719 ServerApp] 200 GET /user/admin/api/me?1774030487709 (admin@192.168.240.1) 0.75ms
+jupyterhub  | [I 2026-03-20 18:14:47.721 ServerApp] 200 GET /user/admin/api/kernelspecs?1774030487709 (admin@192.168.240.1) 0.97ms
+jupyterhub  | [I 2026-03-20 18:14:48.307 ServerApp] 200 GET /user/admin/api/contents?content=1&hash=0&1774030488299 (admin@192.168.240.1) 3.01ms
+jupyterhub  | [I 2026-03-20 18:14:48.895 ServerApp] 204 PUT /user/admin/lab/api/workspaces/default?1774030488825 (admin@192.168.240.1) 4.74ms
+jupyterhub  | [I 2026-03-20 18:14:53,217 configurable_http_proxy] 200 GET /api/routes 
+jupyterhub  | [I 2026-03-20 18:14:56.787 ServerApp] 200 GET /user/admin/api/kernels?1774030496779 (admin@192.168.240.1) 0.75ms
+jupyterhub  | [I 2026-03-20 18:14:56.788 ServerApp] 200 GET /user/admin/api/sessions?1774030496779 (admin@192.168.240.1) 0.84ms
+jupyterhub  | [I 2026-03-20 18:14:56.789 ServerApp] 200 GET /user/admin/api/terminals?1774030496779 (admin@192.168.240.1) 1.10ms
+jupyterhub  | [I 2026-03-20 18:14:56.800 ServerApp] 200 GET /user/admin/lab/api/workspaces?1774030496793 (admin@192.168.240.1) 0.94ms
+jupyterhub  | [I 2026-03-20 18:14:58.331 ServerApp] 200 GET /user/admin/api/contents?content=1&hash=0&1774030498324 (admin@192.168.240.1) 2.82ms
+jupyterhub  | [I 2026-03-20 18:14:58.913 ServerApp] 204 PUT /user/admin/lab/api/workspaces/default?1774030498852 (admin@192.168.240.1) 3.05ms
+jupyterhub  | [I 2026-03-20 18:15:06.821 ServerApp] 200 GET /user/admin/api/terminals?1774030506809 (admin@192.168.240.1) 0.68ms
+jupyterhub  | [I 2026-03-20 18:15:06.823 ServerApp] 200 GET /user/admin/api/kernels?1774030506807 (admin@192.168.240.1) 1.10ms
+jupyterhub  | [I 2026-03-20 18:15:06.824 ServerApp] 200 GET /user/admin/api/sessions?1774030506808 (admin@192.168.240.1) 1.41ms
+jupyterhub  | [I 2026-03-20 18:15:06.824 ServerApp] 200 GET /user/admin/lab/api/workspaces?1774030506809 (admin@192.168.240.1) 1.99ms
+jupyterhub  | [I 2026-03-20 18:15:08.354 ServerApp] 200 GET /user/admin/api/contents?content=1&hash=0&1774030508346 (admin@192.168.240.1) 2.87ms
+jupyterhub  | [I 2026-03-20 18:15:08.930 ServerApp] 204 PUT /user/admin/lab/api/workspaces/default?1774030508874 (admin@192.168.240.1) 0.90ms
+jupyterhub  | [I 2026-03-20 18:15:16.848 ServerApp] 200 GET /user/admin/api/sessions?1774030516840 (admin@192.168.240.1) 0.76ms
+jupyterhub  | [I 2026-03-20 18:15:16.849 ServerApp] 200 GET /user/admin/api/terminals?1774030516840 (admin@192.168.240.1) 0.83ms
+jupyterhub  | [I 2026-03-20 18:15:16.850 ServerApp] 200 GET /user/admin/lab/api/workspaces?1774030516840 (admin@192.168.240.1) 1.37ms
+jupyterhub  | [I 2026-03-20 18:15:16.856 ServerApp] 200 GET /user/admin/api/kernels?1774030516840 (admin@192.168.240.1) 0.85ms
+jupyterhub  | [I 2026-03-20 18:15:18.369 ServerApp] 200 GET /user/admin/api/contents?content=1&hash=0&1774030518362 (admin@192.168.240.1) 2.93ms
+jupyterhub  | [I 2026-03-20 18:15:18.935 ServerApp] 204 PUT /user/admin/lab/api/workspaces/default?1774030518889 (admin@192.168.240.1) 1.07ms
+jupyterhub  | [I 2026-03-20 18:15:26.876 ServerApp] 200 GET /user/admin/lab/api/workspaces?1774030526867 (admin@192.168.240.1) 0.99ms
+jupyterhub  | [I 2026-03-20 18:15:26.878 ServerApp] 200 GET /user/admin/api/sessions?1774030526867 (admin@192.168.240.1) 0.95ms
+jupyterhub  | [I 2026-03-20 18:15:26.878 ServerApp] 200 GET /user/admin/api/kernels?1774030526867 (admin@192.168.240.1) 1.24ms
+jupyterhub  | [I 2026-03-20 18:15:26.879 ServerApp] 200 GET /user/admin/api/terminals?1774030526867 (admin@192.168.240.1) 0.64ms

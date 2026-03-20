@@ -1,0 +1,26 @@
+listen_address: "0.0.0.0:8000"
+
+database:
+  type: "postgres"
+  postgres:
+    connection_string: "postgresql://lakefs_user:secure_lakefs@postgres:5432/lakefs?sslmode=disable"
+
+blockstore:
+  type: s3
+  s3:
+    endpoint: http://minio:9000
+    region: us-east-1
+    force_path_style: true
+    discover_bucket_region: false
+    credentials:
+      access_key_id: minio_root                  # MinIO Access Key
+      secret_access_key: minio_strong_pass   # MinIO
+
+auth:
+  encrypt:
+    secret_key: "fake_encryption_secret_12345678901234567890"
+
+logging:
+  level: info
+  format: text
+  output: "-"

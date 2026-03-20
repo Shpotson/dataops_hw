@@ -1,0 +1,10 @@
+failed to get console mode for stdout: The handle is invalid.
+postgres-1  | 
+postgres-1  | PostgreSQL Database directory appears to contain a database; Skipping initialization
+postgres-1  | 
+postgres-1  | 2026-03-20 16:41:27.381 UTC [1] LOG:  starting PostgreSQL 15.17 (Debian 15.17-1.pgdg13+1) on x86_64-pc-linux-gnu, compiled by gcc (Debian 14.2.0-19) 14.2.0, 64-bit
+postgres-1  | 2026-03-20 16:41:27.382 UTC [1] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+postgres-1  | 2026-03-20 16:41:27.382 UTC [1] LOG:  listening on IPv6 address "::", port 5432
+postgres-1  | 2026-03-20 16:41:27.403 UTC [1] LOG:  listening on Unix socket "/var/run/postgresql/.s.PGSQL.5432"
+postgres-1  | 2026-03-20 16:41:27.423 UTC [29] LOG:  database system was shut down at 2026-03-20 16:41:19 UTC
+postgres-1  | 2026-03-20 16:41:27.437 UTC [1] LOG:  database system is ready to accept connections

@@ -1,0 +1,81 @@
+version: "3.8"
+
+services:
+  postgres:
+    image: postgres:15
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: ${POSTGRES_USER}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
+      POSTGRES_DB: ${POSTGRES_DB}
+      PGDATA: ${PGDATA}
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    ports:
+      - "5432:5432"
+    networks:
+      - lakefs_net
+
+  minio:
+    image: minio/minio:RELEASE.2023-05-18T00-05-36Z
+    restart: unless-stopped
+    environment:
+      MINIO_ROOT_USER: ${MINIO_ROOT_USER}
+      MINIO_ROOT_PASSWORD: ${MINIO_ROOT_PASSWORD}
+    command: server /data --console-address ":${MINIO_CONSOLE_PORT}"
+    ports:
+      - "${MINIO_API_PORT}:9000"
+      - "${MINIO_CONSOLE_PORT}:9001"
+    volumes:
+      - minio_data:/data
+    networks:
+      - lakefs_net
+
+  lakefs:
+    image: treeverse/lakefs:latest
+    restart: unless-stopped
+    depends_on:
+      - postgres
+      - minio
+    volumes:
+      - ./lakefs-config.yaml:/home/lakectl/lakefs-config.yaml
+    command:
+      - run
+      - --config
+      - /home/lakectl/lakefs-config.yaml
+    environment:
+      # DB
+      LAKEFS_DATABASE_TYPE: postgres
+      LAKEFS_DATABASE_CONNECTION_STRING: ${LAKEFS_DATABASE_CONNECTION_STRING}
+
+      # Block store (MinIO)
+      LAKEFS_BLOCKSTORE_TYPE: s3
+      LAKEFS_BLOCKSTORE_S3_ENDPOINT: ${LAKEFS_BLOCKSTORE_S3_ENDPOINT}
+      LAKEFS_BLOCKSTORE_S3_REGION: ${LAKEFS_BLOCKSTORE_S3_REGION}
+      LAKEFS_BLOCKSTORE_S3_FORCE_PATH_STYLE: ${LAKEFS_BLOCKSTORE_S3_FORCE_PATH_STYLE}
+
+      # Auth
+      LAKEFS_AUTH_ENCRYPT_SECRET_KEY: ${LAKEFS_AUTH_ENCRYPT_SECRET_KEY}
+      LAKEFS_AUTH_ROOT_BCRYPT_COST: ${LAKEFS_AUTH_ROOT_BCRYPT_COST}
+
+      # UI / CLI credentials
+      LAKEFS_INSTALLATION_USER_NAME: ${LAKEFS_INSTALLATION_USER_NAME}
+      LAKEFS_INSTALLATION_ACCESS_KEY_ID: ${LAKEFS_INSTALLATION_ACCESS_KEY_ID}
+      LAKEFS_INSTALLATION_SECRET_ACCESS_KEY: ${LAKEFS_INSTALLATION_SECRET_ACCESS_KEY}
+      LAKECTL_CREDENTIALS_ACCESS_KEY_ID: ${LAKECTL_CREDENTIALS_ACCESS_KEY_ID}
+      LAKECTL_CREDENTIALS_SECRET_ACCESS_KEY: ${LAKECTL_CREDENTIALS_SECRET_ACCESS_KEY}
+      LAKECTL_SERVER_ENDPOINT_URL: ${LAKECTL_SERVER_ENDPOINT_URL}
+
+      LAKEFS_LOGGING_LEVEL: INFO
+    ports:
+      - "8000:8000"
+    networks:
+      - lakefs_net
+
+volumes:
+  postgres_data:
+  minio_data:
+
+networks:
+  lakefs_net:
+    driver: bridge

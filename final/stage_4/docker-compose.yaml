@@ -1,0 +1,13 @@
+version: "3.8"
+
+services:
+  jupyterhub:
+    build: .
+    container_name: jupyterhub
+    env_file:
+      - .env
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./jupyterhub-data:/srv/jupyterhub/data
+    restart: unless-stopped
