@@ -1,0 +1,13 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: {{ .Release.Name }}-ml-service
+spec:
+  replicas: {{ .Values.replicaCount }}
+  template:
+    spec:
+      containers:
+      - name: ml-service
+        image: "{{ .Values.image.repository }}:{{ .Values.image.tag }}"
+        resources: {{ .Values.resources | toYaml | nindent 10 }}
+        # probes как в deployment.yaml
