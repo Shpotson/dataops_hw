@@ -6,3 +6,4 @@ scrape_configs:
     static_configs:
       - targets: ['ml-service:8000']
     metrics_path: /metrics
+    fallback_scrape_protocol: PrometheusText0.0.4

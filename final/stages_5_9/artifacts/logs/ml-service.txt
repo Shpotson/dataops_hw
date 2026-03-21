@@ -1,0 +1,20 @@
+failed to get console mode for stdout: The handle is invalid.
+ml-service-1  | /usr/local/lib/python3.11/site-packages/pydantic/_internal/_fields.py:149: UserWarning: Field "model_version" has conflict with protected namespace "model_".
+ml-service-1  | 
+ml-service-1  | You may be able to resolve this warning by setting `model_config['protected_namespaces'] = ()`.
+ml-service-1  |   warnings.warn(
+ml-service-1  | INFO:     Started server process [1]
+ml-service-1  | INFO:     Waiting for application startup.
+ml-service-1  | 2026-03-21 15:56:43,464 - main - INFO - Creating dummy model...
+ml-service-1  | 2026-03-21 15:56:43,464 - main - INFO - Dummy model created
+ml-service-1  | 2026-03-21 15:56:43,497 - main - INFO - Database ready
+ml-service-1  | INFO:     Application startup complete.
+ml-service-1  | INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+ml-service-1  | INFO:     172.28.0.1:40194 - "GET /metrics HTTP/1.1" 200 OK
+ml-service-1  | INFO:     172.28.0.4:37970 - "GET /metrics HTTP/1.1" 200 OK
+ml-service-1  | INFO:     172.28.0.4:57614 - "GET /metrics HTTP/1.1" 200 OK
+ml-service-1  | INFO:     172.28.0.4:34276 - "GET /metrics HTTP/1.1" 200 OK
+ml-service-1  | INFO:     172.28.0.4:58898 - "GET /metrics HTTP/1.1" 200 OK
+ml-service-1  | INFO:     172.28.0.4:45756 - "GET /metrics HTTP/1.1" 200 OK
+ml-service-1  | INFO:     172.28.0.4:42650 - "GET /metrics HTTP/1.1" 200 OK
+ml-service-1  | INFO:     172.28.0.4:46102 - "GET /metrics HTTP/1.1" 200 OK

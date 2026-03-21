@@ -6,7 +6,9 @@ import numpy as np
 from typing import List
 from datetime import datetime
 from fastapi import FastAPI, HTTPException
+from fastapi.responses import Response
 from pydantic import BaseModel
+from prometheus_client import Counter, Histogram, generate_latest, REGISTRY
 import joblib
 from contextlib import asynccontextmanager
 
@@ -18,6 +20,8 @@ logging.basicConfig(
 )
 logger = logging.getLogger(__name__)
 
+REQUEST_COUNT = Counter('http_requests_total', 'Total HTTP Requests', ['method', 'endpoint'])
+PREDICTION_TIME = Histogram('prediction_duration_seconds', 'Prediction inference time')
 app = FastAPI(title="ML Prediction Service")
 
 # Глобальная переменная модели
@@ -73,6 +77,13 @@ async def startup_event():
         logger.error(f"DB error: {e}")
 
 
+@app.get("/metrics")
+async def metrics():
+    return Response(
+        content=generate_latest(REGISTRY),
+        media_type="text/plain; version=0.0.4; charset=utf-8"
+    )
+
 @app.get("/health")
 async def health_check():
     return {"status": "healthy", "model": "ready"}
@@ -80,15 +91,20 @@ async def health_check():
 
 @app.post("/api/v1/predict", response_model=PredictionResponse)
 async def predict(request: PredictionRequest):
+    REQUEST_COUNT.labels(
+        method="POST",
+        endpoint="/api/v1/predict"
+    ).inc()
+
     if model is None:
         raise HTTPException(500, "Model not initialized")
-
-    start_time = time.time()
-    logger.info(f"📥 Predict: {request.features}")
+    logger.info(f"Predict: {request.features}")
 
     try:
+        start_time = time.time()
         features = np.array(request.features).reshape(1, -1)
-        prediction = model.predict(features)[0]
+        prediction_array = model.predict(features)  # ← ndarray
+        prediction = float(prediction_array[0])
         inference_time = time.time() - start_time
 
         # Сохраняем в БД
@@ -99,7 +115,8 @@ async def predict(request: PredictionRequest):
         )
         await conn.close()
 
-        logger.info(f"📤 Prediction: {prediction:.2f}, time: {inference_time:.4f}s")
+        logger.info(f"Prediction: {prediction:.2f}, time: {inference_time:.4f}s")
+        PREDICTION_TIME.observe(time.time() - start_time)
         return PredictionResponse(prediction=float(prediction))
 
     except Exception as e:
